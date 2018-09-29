@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
   <head>
@@ -13,14 +12,14 @@
   </head>
   <body>
 
-  <div class="all" onmouseover="appearScreen()" onkeypress="appearScreen()" onclick="appearScreen()">
-    <span id="Home"></span>
-    <div class="Cover" onmouseover="appearCover()">
-      <span id="open_side" onclick="open_sidebar()">&#10095;</span>
-      <h2 id="title"><a name="Home">Hi there, I'm Carter Bryant</a></h2>
-      <p id="line1"></p>
-      <p id="Welcome">and welcome to my website.</p>
-      <p id="background"></p>
+    <div class="all" onmouseover="appearScreen()" onkeypress="appearScreen()" onclick="appearScreen()">
+      <span id="Home"></span>
+      <div class="Cover" onmouseover="appearCover()">
+        <span id="open_side" onclick="open_sidebar()">&#10095;</span>
+        <h2 id="title"><a name="Home">Hi there, I'm Carter Bryant</a></h2>
+        <p id="line1"></p>
+        <p id="Welcome">and welcome to my website.</p>
+        <p id="background"></p>
     </div>
 
     <div id="topbar" class="topbar">
@@ -900,7 +899,7 @@
       }
     </script>
 
-    <div class="myProjects" >
+    <div class="myProjects">
       <h2 id="Project"><a name="Projects">Check out the projects I've made</a></h2>
       <p id="line3"></p>
       <p id="projectNote">Click the boxes to jump to that project.</p>
@@ -1196,38 +1195,37 @@
       </div>
     </div>
 
-    <div class="Contact">
-      <h2 id="Contact"><a name="Contact">Contact me</a></h2>
-      <p id="line4"></p>
-      <p id="contactNote">Let's meet again.</p>
-      <div class="links">
-        <a href="https://www.linkedin.com/in/carter-bryant">
-          <img onmouseover="linkedinLink()" onmouseout="linkOff()" id="linkedin" src="account_links/Linkedin-icon.png" alt="Linkedin">
-        </a>
-        <p id="link_account">View my Linkedin page.</p>
+    <form class="" action="/" method="post">
+      <div class="Contact">
+        <h2 id="Contact"><a name="Contact">Contact me</a></h2>
+        <p id="line4"></p>
+        <p id="contactNote">Let's meet again.</p>
+        <div class="links">
+          <a href="https://www.linkedin.com/in/carter-bryant">
+            <img onmouseover="linkedinLink()" onmouseout="linkOff()" id="linkedin" src="account_links/Linkedin-icon.png" alt="Linkedin">
+          </a>
+          <p id="link_account">View my Linkedin page.</p>
 
-        <a href="https://github.com/DonnyLoa">
-          <img onmouseover="githubLink()" onmouseout="gitOff()" id="github" src="account_links/GitHub-Mark-64px.png" alt="Github">
-        </a>
-        <p id="git_account">View my GitHub page.</p>
+          <a href="https://github.com/DonnyLoa">
+            <img onmouseover="githubLink()" onmouseout="gitOff()" id="github" src="account_links/GitHub-Mark-64px.png" alt="Github">
+          </a>
+          <p id="git_account">View my GitHub page.</p>
 
-        <a href="https://www.gmail.com/">
-          <img onmouseover="gmailLink()" onmouseout="gmailOff()" id="gmail" src="account_links/gmail-512.png" alt="Gmail">
-        </a>
-        <p id="mail_account">Email me at donny.lao64@gmail.com.</p>
+          <a href="https://www.gmail.com/">
+            <img onmouseover="gmailLink()" onmouseout="gmailOff()" id="gmail" src="account_links/gmail-512.png" alt="Gmail">
+          </a>
+          <p id="mail_account">Email me at donny.lao64@gmail.com.</p>
+        </div>
+
+        <div id="bottombar" onmouseover="bottomBar()" onmouseout="bottomBarOff()" class="bottombar" class="active">
+          <a id="bhome" onmouseover="bHome()" onclick="getPosition(Home)">Home</a>
+          <a id="babout" onmouseover="bAbout()" onclick="getPosition(Intro)">About</a>
+          <a id="beducation" onmouseover="bEducation()" onclick="getPosition(Education)">Education</a>
+          <a id="bprojects" onmouseover="bProjects()" onclick="getPosition(Project)">Projects</a>
+          <!-- <a id="bcontact" onmouseover="bContact()" onclick="getPosition(Contact)">Contact</a> -->
+        </div>
       </div>
-
-      <div id="bottombar" onmouseover="bottomBar()" onmouseout="bottomBarOff()" class="bottombar" class="active">
-        <a id="bhome" onmouseover="bHome()" onclick="getPosition(Home)">Home</a>
-        <a id="babout" onmouseover="bAbout()" onclick="getPosition(Intro)">About</a>
-        <a id="beducation" onmouseover="bEducation()" onclick="getPosition(Education)">Education</a>
-        <a id="bprojects" onmouseover="bProjects()" onclick="getPosition(Project)">Projects</a>
-        <!-- <a id="bcontact" onmouseover="bContact()" onclick="getPosition(Contact)">Contact</a> -->
-      </div>
-
-    </div>
-
+    </form>
   </div>
   </body>
 </html>
->>>>>>> 5ec318662b679e9f5e3350bfef45c5156d6d782c
