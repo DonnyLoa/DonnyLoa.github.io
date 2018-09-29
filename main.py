@@ -9,7 +9,7 @@ jinja_env = jinja2.Environment(
 
 class ProjectsPage(webapp2.RequestHandler):
     def post(self):
-        projects_template = jinja_env.get_template('BP_projects.html')
+        projects_template = jinja_env.get_template('index.html')
         self.response.write(projects_template.render())
 
 
