@@ -15,5 +15,4 @@ class ProjectsPage(webapp2.RequestHandler):
 
 app = webapp2.WSGIApplication([
     ('/', ProjectsPage),
-], config=config,
-   debug=True)
+], debug=True)
