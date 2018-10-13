@@ -13,7 +13,7 @@
   </head>
   <body>
 
-  <div class="all" onmouseover="appearScreen()" onkeypress="appearScreen()" onclick="appearScreen()" onscroll="appearScreen()" onload="appearScreen()">
+  <div onmouseover="appearScreen()" onkeypress="appearScreen()" onclick="appearScreen()" onscroll="appearScreen()" onload="appearScreen()">
     <span id="Home"></span>
     <div class="Cover" onmouseover="appearCover()">
       <span id="open_side" onclick="open_sidebar()">&#10095;</span>
@@ -69,7 +69,7 @@
 
     <div class="Education" onmouseover="appearEducation()">
       <h2 id="Education"><a name="Education">Here's where I've been</a></h2>
-      <p id="linet"></p>
+      <p id="line_education"></p>
       <p id="educationNote">Click the arrows or bubbles to switch between each page.</p>
       <p id="educationPic1"></p>
       <p id="educationPic2"></p>
@@ -111,11 +111,11 @@
 
     <script type="text/javascript">
       function appearScreen() {
-        let size = [window.width,window.height];
+        // let size = [window.width,window.height];
         // let width = window.width;
         // let keepHeight = window.height;
         // window.resizeTo(width,keepHeight);
-        window.resizeTo(size[0],size[1]);
+        // window.resizeTo(size[0],size[1]);
 
         // console.log(window.innerWidth);
 
@@ -214,7 +214,7 @@
           document.getElementById("Contactbar").style.backgroundColor = "";
           appearEducation();
         }
-        if (window.scrollY >= 1450 && window.scrollY < 2300) {
+        if (window.scrollY >= 1450 && window.scrollY < 1900) {
           document.getElementById("open_side").style.color = "green";
           document.getElementById("Homebar").style.backgroundColor = "";
           document.getElementById("Aboutbar").style.backgroundColor = "";
@@ -223,12 +223,12 @@
           document.getElementById("Contactbar").style.backgroundColor = "";
           appearProjects();
         }
-        if (window.scrollY >= 2100) {
+        if (window.scrollY >= 1900) {
           close_sidebar();
           document.getElementById("open_side").style.color = "black";
           open_prompt();
         }
-        if (window.scrollY >= 2250) {
+        if (window.scrollY >= 1900) {
           document.getElementById("Homebar").style.backgroundColor = "";
           document.getElementById("Aboutbar").style.backgroundColor = "";
           document.getElementById("Edubar").style.backgroundColor = "";
@@ -238,25 +238,25 @@
         }
       }
 
-      document.getElementById("sidebar").style.marginLeft = "-20%";
+      document.getElementById("sidebar").style.marginLeft = "-140px";
       document.getElementById("sidebar").style.width = "125px";
 
       function open_prompt() {
         sidebarCheck = 1;
-        document.getElementById("sidebar").style.marginLeft = "-20%";
-        document.getElementById("open_side").style.marginLeft = "-5%";
+        document.getElementById("sidebar").style.marginLeft = "-140px";
+        document.getElementById("open_side").style.marginLeft = "-60px";
       }
 
       function open_sidebar() {
         sidebarCheck = 1;
-        document.getElementById("sidebar").style.marginLeft = "-2%";
-        document.getElementById("open_side").style.marginLeft = "-20%";
+        document.getElementById("sidebar").style.marginLeft = "-30px";
+        document.getElementById("open_side").style.marginLeft = "-140px";
       }
 
       function close_sidebar() {
         sidebarCheck = 1;
-        document.getElementById("sidebar").style.marginLeft = "-20%";
-        document.getElementById("open_side").style.marginLeft = "-4.5%";
+        document.getElementById("sidebar").style.marginLeft = "-140px";
+        document.getElementById("open_side").style.marginLeft = "-60px";
       }
 
       function hide_sidebar() {
@@ -310,7 +310,7 @@
       function education1() {
         document.getElementById("bubble1").style.color = "#009933";
         document.getElementById("bubble2").style.color = "gray";
-        document.getElementById("CSSI_tab").style.left = "50%";
+        document.getElementById("CSSI_tab").style.left = "40%";
         document.getElementById("CSSI_tab").style.opacity = "0";
         document.getElementById("educationPic1").style.opacity = "0.4";
         document.getElementById("educationPic2").style.opacity = "0";
@@ -337,7 +337,7 @@
       function education2() {
         document.getElementById("bubble1").style.color = "gray";
         document.getElementById("bubble2").style.color = "#009933";
-        document.getElementById("BC_tab").style.left = "50%";
+        document.getElementById("BC_tab").style.left = "40%";
         document.getElementById("BC_tab").style.opacity = "0";
         document.getElementById("educationPic1").style.opacity = "0";
         document.getElementById("educationPic2").style.opacity = "0.4";
@@ -388,7 +388,7 @@
         // document.getElementById("title").style.marginTop = "40%";  //small browser
         // document.getElementById("Welcome").style.marginTop = "50%";
         document.getElementById("title").style.marginTop = "12%"; //full browser
-        document.getElementById("Welcome").style.marginTop = "25%";
+        document.getElementById("Welcome").style.marginTop = "320px";
         document.getElementById("line1").style.width = "50%";
         document.getElementById("line1").style.left = "25%";
         document.getElementById("title").style.opacity = 1;
@@ -407,7 +407,7 @@
           // document.getElementById("info_line").style.transition = ".75s ease";
           // document.getElementById("info_line").style.transitionDelay = "1.5s";
           console.log(document.getElementById("info_title").style.opacity);
-          // document.getElementById("info_title").style.opacity = "1";
+          document.getElementById("info_title").style.opacity = "1";
           // document.getElementById("info_title").style.left = "40%";
           document.getElementById("info_line").style.width = "550px";
           document.getElementById("info_line").style.opacity = "1";
@@ -427,9 +427,9 @@
           document.getElementById("bubble1").style.color = "#009933";
           document.getElementById("bubble2").style.color = "gray";
           document.getElementById("educationPic1").style.opacity = "0.4";
-          document.getElementById("linet").style.width = "30%";
-          document.getElementById("linet").style.left = "35%";
-          document.getElementById("linet").style.opacity = "1";
+          document.getElementById("line_education").style.width = "30%";
+          document.getElementById("line_education").style.left = "35%";
+          document.getElementById("line_education").style.opacity = "1";
           document.getElementById("BC_tab").style.opacity = "1";
           document.getElementById("education_title1").style.left = "125px";
           document.getElementById("education_line1").style.width = "550px";
@@ -514,7 +514,7 @@
 
           function keepVisible() {
             document.getElementById("click_space").style.cursor = "pointer";
-            document.getElementById("click_space").style.left = "20%";
+            document.getElementById("click_space").style.left = "10%";
             document.getElementById("project_dropdown").style.width = "1000px";
             document.getElementById("opacity_title").innerHTML = "Magic Trivia";
             document.getElementById("opacity_text").innerHTML =
@@ -529,7 +529,8 @@
             "sessions. Copy the links below to view our Github pages.";
 
             document.getElementById("project_images").style.opacity = "1";
-            document.getElementById("project_images").style.left = "20%";
+            document.getElementById("project_images").style.left = "10%";
+            document.getElementById("project_dropdown").style.left = "10%";
             document.getElementById("opacity_title").style.opacity = "1";
             document.getElementById("opacity_title").style.left = "55%";
             document.getElementById("opacity_line").style.opacity = "1";
@@ -600,12 +601,12 @@
 
             <div id="git_tags" onmouseover="keepVisible()" onmouseout="revertVisible()">
               <div id="pointer" class="guava" class="active" onclick="guavaJump()" onmouseover="guavaHover()">
-                <a><img id="github1" src="../account_links/GitHub-Mark.png" alt="Github">
+                <a><img id="github1" src="account_links/GitHub-Mark.png" alt="Github">
                 <!-- <a><img id="github1" src="account_links/GitHub-Mark-64px.png" alt="Github"> -->
                 <p id="guavaName">guavafanclub</p></a>
               </div>
               <div id="pointer" class="dmart" class="active" onclick="dmartJump()" onmouseover="dmartHover()">
-                <a><img id="github2" src="../account_links/GitHub-Mark.png" alt="Github">
+                <a><img id="github2" src="account_links/GitHub-Mark.png" alt="Github">
                 <!-- <a><img id="github2" src="account_links/GitHub-Mark-64px.png" alt="Github"> -->
                 <p id="dmartName">dmartinez213</p></a>
               </div>
@@ -620,12 +621,12 @@
       <p id="contactNote">Let's meet again.</p>
       <div class="links">
         <a href="https://www.linkedin.com/in/carter-bryant">
-          <img onmouseover="linkedinLink()" onmouseout="linkOff()" id="linkedin" src="/account_links/Linkedin-icon.png" alt="Linkedin">
+          <img onmouseover="linkedinLink()" onmouseout="linkOff()" id="linkedin" src="account_links/Linkedin-icon.png" alt="Linkedin">
         </a>
         <p id="link_account">View my Linkedin page.</p>
 
         <a href="https://github.com/DonnyLoa">
-          <img onmouseover="githubLink()" onmouseout="gitOff()" id="github" src="/account_links/GitHub-Mark.png" alt="Github">
+          <img onmouseover="githubLink()" onmouseout="gitOff()" id="github" src="../account_links/GitHub-Mark.png" alt="Github">
           <!-- <img onmouseover="githubLink()" onmouseout="gitOff()" id="github" src="account_links/GitHub-Mark-64px.png" alt="Github"></a> -->
         <p id="git_account">View my GitHub page.</p>
 
