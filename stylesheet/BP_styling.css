@@ -113,7 +113,7 @@ h2 {
   overflow: hidden;
   border-radius: 15px;
   transition: .3s ease;
-  background-color: #26262a;
+  background-color: lightgreen;
 }
 
 .topbar a {
@@ -197,7 +197,7 @@ h2 {
 }
 
 .topbar a:hover:not(.active) {
-  color: gray;
+  color: #009933;
 }
 
 .sidebar a.active {
@@ -219,7 +219,7 @@ h2 {
   top: 650px;
   width: 1348px;
   height: 548px;
-  background-color: beige;
+  background-color: lightblue;
 }
 
 #Intro {
@@ -249,7 +249,6 @@ h2 {
 
 #introNote {
   top: 80px;
-  /* left: 41%; */
   width: 1348px;
   padding-bottom: 20px;
   position: absolute;
@@ -277,7 +276,7 @@ h2 {
   margin: auto;
   transition: .75s ease;
   transition-delay: .5s;
-  border: 5px solid lightblue;
+  border: 5px solid beige;
   border-radius: 50%;
   /* overflow: hidden; */
   color: #009933;
@@ -309,7 +308,7 @@ h2 {
 
 #info_line {
   color: black;
-  border: 3px solid black;
+  border: 3px solid white;
   border-radius: 60%;
   text-align: left;
   position: absolute;
