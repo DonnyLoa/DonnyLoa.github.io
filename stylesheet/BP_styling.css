@@ -409,7 +409,7 @@ h2 {
   /* margin-bottom: 10px; */
   background-image: url(../images/BCHSPainting.jpg);
   background-repeat: no-repeat;
-  background-size: 1348 650px;
+  background-size: 1348px 650px;
   background-attachment: fixed;
   transition: .5s ease;
 }
@@ -425,7 +425,7 @@ h2 {
   /* margin-bottom: 10px; */
   background-image: url(../images/google-kirkland-office-front.jpg);
   background-repeat: no-repeat;
-  background-size: 1348 650px;
+  background-size: 1348px 650px;
   background-attachment: fixed;
   transition: .5s ease;
 }
