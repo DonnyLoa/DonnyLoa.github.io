@@ -268,7 +268,7 @@ h2 {
   height: auto;
   position: absolute;
   /* text-align: center; */
-  /* clip: rect(1px,1px,1px,1px); */
+  clip: rect(40px,40px,40px,40px);
   top: 200px;
   left: -50%;
   /* transform: scale(0.25); */
