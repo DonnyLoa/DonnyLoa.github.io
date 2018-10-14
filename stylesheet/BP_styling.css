@@ -914,7 +914,7 @@ p:hover:not(.active) {
 
 #link_account {
   position: absolute;
-  height: 64px;
+  height: 20px;
   background-color: green;
   top: 10px;
   left: 21%;
@@ -935,6 +935,7 @@ p:hover:not(.active) {
 #git_account {
   color: white;
   position: absolute;
+  height: 20px;
   top: 10px;
   left: 46%;
   opacity: 0;
@@ -953,6 +954,7 @@ p:hover:not(.active) {
 
 #mail_account {
   position: absolute;
+  height: 20px;
   top: 10px;
   left: 69%;
   opacity: 0;
