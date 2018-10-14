@@ -271,7 +271,7 @@ h2 {
   /* clip: rect(1px,1px,1px,1px); */
   top: 200px;
   left: -50%;
-  transform: scale(20);  
+  transform: scale(0.25);  
   z-index: 1;
   margin: auto;
   transition: .75s ease;
