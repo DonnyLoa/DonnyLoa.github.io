@@ -226,9 +226,9 @@ h2 {
   position: absolute;
   left: 0px;
   top: 650px;
-  width: 1338px;
+  width: 1340px;
   height: 548px;
-  background-color: green;
+  background-color: beige;
 }
 
 #Intro {
@@ -637,7 +637,7 @@ p:hover:not(.active) {
   position: absolute;
   top: 1790px;
   height: 648px;
-  width: 1335px;
+  width: 1340px;
   left: 0px;
 }
 
