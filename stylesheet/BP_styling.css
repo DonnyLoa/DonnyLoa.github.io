@@ -269,7 +269,7 @@ h2 {
   position: absolute;
   /* text-align: center; */
   /* clip: rect(1px,1px,1px,1px); */
-  top: 240px;
+  top: 200px;
   left: -50%;
   z-index: 1;
   margin: auto;
@@ -914,6 +914,8 @@ p:hover:not(.active) {
 
 #link_account {
   position: absolute;
+  height: 64px;
+  background-color: green;
   top: 10px;
   left: 21%;
   opacity: 0;
