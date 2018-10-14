@@ -34,16 +34,12 @@ h2 {
 }
 
 .Cover {
-  /* z-index: 2; */
   position: absolute;
-  /* text-align: center; */
   left: 0px;
   top: 0px;
   height: 650px;
   width: 1348px;
   padding: 0px;
-  /* margin-left: 0%; */
-  /* padding-right: 30px; */
 }
 
 #background {
@@ -52,7 +48,6 @@ h2 {
   height: 650px;
   width: 1348px;
   margin-top: 0px;
-  /* margin-bottom: 0px; */
   background-image: url(../images/mountain.jpg);
   background-repeat: no-repeat;
   background-size: 1348px 650px;
@@ -83,7 +78,6 @@ h2 {
   text-align: center;
   transition: 1s;
   transition-delay: 1s;
-  /* height: 1px; */
 }
 
 #Welcome {
@@ -94,7 +88,6 @@ h2 {
   color: black;
   text-align: center;
   width: 1348px;
-  /* margin-top: 40%; */  /*small browser */
   margin-top: 270px;
   opacity: 0;
   transition: 1s;
@@ -125,7 +118,6 @@ h2 {
   color: white;
   width: 150px;
   text-decoration: none;
-  /* transition: .3s; */
 }
 
 .sidebar {
@@ -204,16 +196,11 @@ h2 {
   color: black;
 }
 
-/* .sidebar a:hover.active {
-  color: black;
-} */
-
 .sidebar a:hover:not(.active) {
     color: darkgreen;
 }
 
 .Introduction {
-  /* opacity: 0; */
   position: absolute;
   left: 0px;
   top: 650px;
@@ -228,10 +215,7 @@ h2 {
   width: 1348px;
   position: absolute;
   text-align: center;
-  /* top: 40%; */
-  /* padding-bottom: 20%; */
   font-family: 'Oswald', sans-serif;
-  /* top: -10px; */
 }
 
 #line2 {
@@ -243,7 +227,6 @@ h2 {
   position: absolute;
   text-align: center;
   transition: .5s;
-  /* transition-delay: 1s; */
   opacity: 0;
 }
 
@@ -278,7 +261,6 @@ h2 {
   transition-delay: .5s;
   border: 5px solid beige;
   border-radius: 50%;
-  /* overflow: hidden; */
   color: #009933;
   background-color: lightblue;
 }
@@ -290,14 +272,10 @@ h2 {
   font-family: 'Quicksand', sans-serif;
   text-align: left;
   position: absolute;
-  /* margin-left: 50px; */
   padding-top: 0px;
   padding-bottom: 0px;
   padding-left: 10px;
   padding-right: 0px;
-  /* text-align-last: center; */
-  /* border: 5px solid blue; */
-  /* background-color: blue; */
   top: 135px;
   left: 680px;
   height: 25px;
@@ -312,7 +290,6 @@ h2 {
   border-radius: 60%;
   text-align: left;
   position: absolute;
-  /* margin-left: 120px; */
   top: 160px;
   left: 680px;
   width: 0px;
@@ -331,23 +308,14 @@ h2 {
   font-family: 'Roboto Condensed', sans-serif;
   text-align: left;
   position: absolute;
-  /* background-color: green; */
-  /* margin-left: 120px; */
-  /* margin-right: 1200px; */
   padding-top: 0px;
   padding-bottom: 0px;
-  /* padding-left: 0px; */
   padding-right: 0px;
-  /* border: 1px solid black;
-  border-radius: 50%; */
-  /* background-color: white; */
   transition: .3s;
   transition-delay: 1.5s;
 }
 
 .Education {
-  /* opacity: 0; */
-  /* background-color: beige; */
   position: absolute;
   left: 0px;
   top: 1195px;
@@ -361,13 +329,8 @@ h2 {
   font-size: 40px;
   position: absolute;
   text-align: center;
-  /* top: 40%; */
-  /* left: 50%; */
   width: 1348px;
-
-  /* padding-bottom: 20%; */
   font-family: 'Oswald', sans-serif;
-  /* top: -10px; */
 }
 
 #line_education {
@@ -379,18 +342,12 @@ h2 {
   position: absolute;
   text-align: center;
   transition: .5s;
-  /* transition-delay: 1s; */
   opacity: 0;
 }
 
 #educationNote {
   z-index: 2;
   top: 80px;
-  /* left: 50%; */
-  /* position: absolute; */
-  /* text-align: center; */
-  /* top: 14%;
-  left: 35%; */
   width: 1348px;
   position: absolute;
   text-align: center;
@@ -405,8 +362,6 @@ h2 {
   height: 111.25%;
   width: 1348px;
   position: absolute;
-  /* margin-top: 0px; */
-  /* margin-bottom: 10px; */
   background-image: url(../images/BCHSPainting.jpg);
   background-repeat: no-repeat;
   background-size: 1348px 650px;
@@ -421,8 +376,6 @@ h2 {
   height: 111.25%;
   width: 1348px;
   position: absolute;
-  /* margin-top: 0px; */
-  /* margin-bottom: 10px; */
   background-image: url(../images/google-kirkland-office-front.jpg);
   background-repeat: no-repeat;
   background-size: 1348px 650px;
@@ -449,20 +402,16 @@ h2 {
 
 #education_title1 {
   z-index: 2;
-  /* opacity: 0; */
   color: darkgreen;
   font-size: 18px;
   font-family: 'Quicksand', sans-serif;
   text-align: left;
   position: absolute;
-  /* text-align-last: center; */
-  /* border: 5px solid blue; */
   top: 300px;
   left: 400px;
   height: 25px;
   width: 400px;
   transition: .5s;
-  /* transition-delay: 1.25s; */
 }
 
 #education_line1 {
@@ -474,15 +423,11 @@ h2 {
   margin-left: 120px;
   top: 324px;
   left: 400px;
-  /* width: 1348; */
-  /* opacity: 0; */
   transition: .5s;
-  /* transition-delay: 1.5s; */
 }
 
 #edu_info1 {
   z-index: 2;
-  /* opacity: 0; */
   line-height: 175%;
   height: 90px;
   width: 550px;
@@ -493,25 +438,20 @@ h2 {
   text-align: left;
   position: absolute;
   transition: .5s;
-  /* transition-delay: 1.5s; */
 }
 
 #education_title2 {
   z-index: 2;
-  /* opacity: 0; */
   color: darkgreen;
   font-size: 18px;
   font-family: 'Quicksand', sans-serif;
   text-align: left;
   position: absolute;
-  /* text-align-last: center; */
-  /* border: 5px solid blue; */
   top: 300px;
   left: 400px;
   height: 25px;
   width: 400px;
   transition: .5s;
-  /* transition-delay: 1.25s; */
 }
 
 #education_line2 {
@@ -523,15 +463,11 @@ h2 {
   margin-left: 120px;
   top: 324px;
   left: 400px;
-  /* width: 1348; */
-  /* opacity: 0; */
   transition: .5s;
-  /* transition-delay: 1.5s; */
 }
 
 #edu_info2 {
   z-index: 2;
-  /* opacity: 0; */
   line-height: 175%;
   height: 90px;
   width: 550px;
@@ -542,7 +478,6 @@ h2 {
   text-align: left;
   position: absolute;
   transition: .5s;
-  /* transition-delay: 1.5s; */
 }
 
 #education_tabs {
@@ -559,33 +494,16 @@ h2 {
   overflow: hidden;
   border-radius: 15px;
   transition: .5s ease;
-  /* background-color: lightgreen; */
 }
 
 #education_tabs a {
   z-index: 2;
   font-family: "Merriweather", sans-serif;
-  /* font-size: 20px; */
   cursor: pointer;
   display: inline-block;
-  /* color: gray; */
   width: 20px;
   bottom: 5px;
   text-decoration: none;
-  /* transition: .5s; */
-  /* color: white; */
-}
-
-#education_tabs a:hover {
-  /* color: black; */
-}
-
-/* .active {
-  color: #009933;
-} */
-
-#education_tabs a:hover:not(.active) {
-  /* color: black; */
 }
 
 #left_arrow {
@@ -623,7 +541,6 @@ p:hover:not(.active) {
 }
 
 .myProjects {
-  /* opacity: 0; */
   font-family: 'Oswald', sans-serif;
   background-color: lightblue;
   position: absolute;
@@ -633,18 +550,13 @@ p:hover:not(.active) {
   left: 0px;
 }
 
-/* .Project {
-  opacity: 0;
-  background-color: lightblue;
-  position: absolute;
-} */
-
 #Project {
   font-size: 40px;
   transition: .5s ease;
 }
 
 #line3 {
+  opacity: 0;
   z-index: 2;
   top: 75px;
   left: 50%;
@@ -653,14 +565,11 @@ p:hover:not(.active) {
   position: absolute;
   text-align: center;
   transition: .5s;
-  /* transition-delay: 1s; */
-  opacity: 0;
 }
 
 #projectNote {
   top: 0px;
   left: 50%;
-  /* position: absolute; */
   text-align: center;
   font-family: 'Quicksand', sans-serif;
   font-size: 20px;
@@ -671,7 +580,6 @@ p:hover:not(.active) {
   height: 200px;
   width: 450px;
   position: absolute;
-  /* z-index: 3; */
   opacity: 0.5;
   top: 35%;
   left: 33%;
@@ -683,13 +591,8 @@ p:hover:not(.active) {
 
 #click_space {
   cursor: pointer;
-  /* color: white; */
-  /* background-color: green; */
   position: absolute;
-  /* font-family: serif; */
-  /* text-align: center; */
   padding-top: 100px;
-  /* top: 4; bottom:4 ; left: ; right:; */
   border: 5px;
   border-radius: 10px;
   height: 100px;
@@ -702,14 +605,11 @@ p:hover:not(.active) {
 }
 
 #project_dropdown {
-  /* cursor: pointer; */
   color: white;
   position: absolute;
   font-family: serif;
   text-align: center;
   padding-top: 100px;
-  /* top: 4; bottom:4 ; left: ; right:; */
-  /* border: 5px solid orange; */
   border-radius: 10px;
   height: 255px;
   top: 36%;
@@ -726,14 +626,11 @@ p:hover:not(.active) {
   font-family: 'Quicksand', sans-serif;
   text-align: left;
   position: absolute;
-  /* text-align-last: center; */
-  /* border: 5px solid blue; */
   top: 30%;
   left: 48%;
   height: 25px;
   width: 100px;
-  opacity: 0.01; /* 0.01*/
-  /* transition-delay: 1s; */
+  opacity: 0.01;
   transition: .3s;
 }
 
@@ -754,20 +651,17 @@ p:hover:not(.active) {
   font-family: 'Roboto Condensed', sans-serif;
   text-align: left;
   position: absolute;
-  /* text-align-last: center; */
-  /* border: 5px solid blue; */
   top: 35%;
   left: 48%;
   line-height: 175%;
   height: 205px;
   width: 440px;
-  opacity: 0.01; /* 0.01*/
+  opacity: 0.01;
   transition: .3s;
   transition-delay: .3s;
 }
 
 #git_tags {
-  /* position: absolute; */
   margin-top: 20%;
   left: 40%;
   opacity: 0;
@@ -856,8 +750,6 @@ p:hover:not(.active) {
   left: 0px;
   height: 325px;
   width: 1348px;
-  /* bottom: -50px; */
-  /* padding-top: 1px; */
   color: white;
   background-color: #26262a;
 }
@@ -869,7 +761,6 @@ p:hover:not(.active) {
 
 #line4 {
   z-index: 3;
-  /* padding-top: 5%; */
   top: 75px;
   left: 50%;
   width: 0%;
@@ -878,7 +769,6 @@ p:hover:not(.active) {
   position: absolute;
   text-align: center;
   transition: .5s;
-  /* transition-delay: 1s; */
   opacity: 1;
 }
 
@@ -891,17 +781,6 @@ p:hover:not(.active) {
   font-family: 'Quicksand', sans-serif;
   font-size: 20px;
 }
-
-/* .links {
-
-    display: inline-block;
-    position: absolute;
-    list-style-type: none;
-    margin: 0px;
-    text-align: center;
-    padding: 0px;
-    overflow: hidden;
-} */
 
 #linkedin {
   opacity: 0;
@@ -974,7 +853,6 @@ p:hover:not(.active) {
   overflow: hidden;
   border-radius: 15px;
   transition: .3s ease;
-  /* background-color: lightgreen; */
 }
 
 .bottombar a {
@@ -986,21 +864,7 @@ p:hover:not(.active) {
   width: 150px;
   bottom: 45px;
   text-decoration: none;
-  /* transition: .3s; */
-  /* color: white; */
 }
-
-/* .bottombar a.active {
-  color: gray;
-} */
-
-/* .bottombar div:hover.active {
-  color: gray;
-}
-
-.bottombar div:hover:not(.active) {
-  color: white;
-} */
 
 .bottombar a:hover.active {
   color: white;
@@ -1009,7 +873,3 @@ p:hover:not(.active) {
 .bottombar a:hover:not(.active) {
   color: gray;
 }
-
-/* .bottombar a.active {
-  color: gray;
-} */
