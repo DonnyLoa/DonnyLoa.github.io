@@ -40,7 +40,7 @@ h2 {
   left: 0px;
   top: 0px;
   height: 650px;
-  width: 100%;
+  width: 1355px;
   padding: 0px;
   /* margin-left: 0%; */
   /* padding-right: 30px; */
@@ -50,7 +50,7 @@ h2 {
   z-index: 1;
   opacity: 0.5;
   height: 650px;
-  width: 1340px;
+  width: 1350px;
   margin-top: 0px;
   /* margin-bottom: 0px; */
   background-image: url(../images/mountain.jpg);
@@ -62,7 +62,7 @@ h2 {
 #title {
   z-index: 2;
   font-size: 55px;
-  width: 1340px;
+  width: 1350px;
   top: 85px;
   font-family: 'Oswald', sans-serif;
   font-variant: normal;
@@ -93,7 +93,7 @@ h2 {
   position: absolute;
   color: black;
   text-align: center;
-  width: 1340px;
+  width: 1350px;
   /* margin-top: 40%; */  /*small browser */
   margin-top: 270px;
   opacity: 0;
@@ -217,7 +217,7 @@ h2 {
   position: absolute;
   left: 0px;
   top: 650px;
-  width: 1340px;
+  width: 1350px;
   height: 548px;
   background-color: beige;
 }
@@ -350,7 +350,7 @@ h2 {
   position: absolute;
   left: 0px;
   top: 1195px;
-  width: 1340px;
+  width: 1350px;
   height: 530px;
 }
 
@@ -628,7 +628,7 @@ p:hover:not(.active) {
   position: absolute;
   top: 1787px;
   height: 650px;
-  width: 1340px;
+  width: 1350px;
   left: 0px;
 }
 
@@ -854,7 +854,7 @@ p:hover:not(.active) {
   top: 2425px;
   left: 0px;
   height: 325px;
-  width: 1340px;
+  width: 1350px;
   /* bottom: -50px; */
   /* padding-top: 1px; */
   color: white;
@@ -915,7 +915,7 @@ p:hover:not(.active) {
 
 #link_account {
   position: absolute;
-  top: 100px;
+  top: 190px;
   left: 21%;
   opacity: 0;
   transition: .3s;
@@ -934,7 +934,7 @@ p:hover:not(.active) {
 #git_account {
   color: white;
   position: absolute;
-  top: 100px;
+  top: 190px;
   left: 46%;
   opacity: 0;
   transition: .3s;
@@ -952,7 +952,7 @@ p:hover:not(.active) {
 
 #mail_account {
   position: absolute;
-  top: 100px;
+  top: 190px;
   left: 69%;
   opacity: 0;
   transition: .3s;
