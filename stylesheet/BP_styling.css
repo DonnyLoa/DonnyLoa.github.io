@@ -906,7 +906,7 @@ p:hover:not(.active) {
   opacity: 0;
   height: 66px;
   width: 66px;
-  top: 390px;
+  top: 160px;
   left: 23%;
   position: absolute;
   transition: .5s;
@@ -915,8 +915,7 @@ p:hover:not(.active) {
 #link_account {
   position: absolute;
   height: 20px;
-  background-color: green;
-  top: 10px;
+  top: 210px;
   left: 21%;
   opacity: 0;
   transition: .3s;
@@ -926,7 +925,7 @@ p:hover:not(.active) {
   opacity: 0;
   height: 64px;
   width: 64px;
-  top: 390px;
+  top: 160px;
   left: 48%;
   position: absolute;
   transition: .5s;
@@ -936,7 +935,7 @@ p:hover:not(.active) {
   color: white;
   position: absolute;
   height: 20px;
-  top: 10px;
+  top: 210px;
   left: 46%;
   opacity: 0;
   transition: .3s;
@@ -946,7 +945,7 @@ p:hover:not(.active) {
   opacity: 0;
   height: 64px;
   width: 64px;
-  top: 390px;
+  top: 160px;
   left: 73%;
   position: absolute;
   transition: .5s;
@@ -955,7 +954,7 @@ p:hover:not(.active) {
 #mail_account {
   position: absolute;
   height: 20px;
-  top: 10px;
+  top: 210px;
   left: 69%;
   opacity: 0;
   transition: .3s;
