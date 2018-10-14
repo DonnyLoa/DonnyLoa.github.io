@@ -2,12 +2,9 @@ h2 {
   text-align: center;
 }
 
-html, body {
-  position: fixed;
-  top: 0;
-  bottom:0;
-  left:0;
-  right:0;
+.all {
+  width: 100%;
+  height: 100%;
 }
 
 .navbar {
@@ -46,7 +43,7 @@ html, body {
   left: 0px;
   top: 0px;
   height: 650px;
-  width: 1348px;
+  width: 100%;
   padding: 0px;
 }
 
@@ -54,23 +51,23 @@ html, body {
   z-index: 1;
   opacity: 0.5;
   height: 650px;
-  width: 1348px;
+  width: 100%;
   margin-top: 0px;
   background-image: url(../images/mountain.jpg);
   background-repeat: no-repeat;
-  background-size: 1348px 650px;
+  background-size: 100% 650px;
   background-attachment: fixed;
 }
 
 #title {
   z-index: 2;
   font-size: 55px;
-  width: 1348px;
-  top: 85px;
   font-family: 'Oswald', sans-serif;
   font-variant: normal;
   position: absolute;
   text-align: center;
+  width: 100%;
+  margin-top: 85px;
   color: black;
   opacity: 0;
   transition: 1s;
@@ -95,7 +92,7 @@ html, body {
   position: absolute;
   color: black;
   text-align: center;
-  width: 1348px;
+  width: 100%;
   margin-top: 270px;
   opacity: 0;
   transition: 1s;
@@ -105,7 +102,7 @@ html, body {
 .topbar {
   height: 50px;
   top: -20px;
-  width: 1332px;
+  width: 99%;
   display: inline-block;
   position: absolute;
   list-style-type: none;
@@ -212,7 +209,7 @@ html, body {
   position: absolute;
   left: 0px;
   top: 650px;
-  width: 1348px;
+  width: 100%;
   height: 548px;
   background-color: lightblue;
 }
@@ -220,7 +217,7 @@ html, body {
 #Intro {
   color: black;
   font-size: 40px;
-  width: 1348px;
+  width: 100%;
   position: absolute;
   text-align: center;
   font-family: 'Oswald', sans-serif;
@@ -240,7 +237,7 @@ html, body {
 
 #introNote {
   top: 80px;
-  width: 1348px;
+  width: 100%;
   padding-bottom: 20px;
   position: absolute;
   text-align: center;
@@ -254,7 +251,7 @@ html, body {
   opacity: 1;
   /* height: 300px; */
   /* width: 390px; */
-  width: 405px;
+  width: 30%;
   height: auto;
   position: absolute;
   /* text-align: center; */
@@ -285,7 +282,7 @@ html, body {
   padding-left: 10px;
   padding-right: 0px;
   top: 135px;
-  left: 680px;
+  left: 50%;
   height: 25px;
   width: 200px;
   transition: .3s;
@@ -299,7 +296,7 @@ html, body {
   text-align: left;
   position: absolute;
   top: 160px;
-  left: 680px;
+  left: 50%;
   width: 0px;
   opacity: 0;
   transition: .3s;
@@ -312,7 +309,7 @@ html, body {
   height: 320px;
   width: 570px;
   top: 170px;
-  left: 680px;
+  left: 50%;
   font-family: 'Roboto Condensed', sans-serif;
   text-align: left;
   position: absolute;
@@ -327,7 +324,7 @@ html, body {
   position: absolute;
   left: 0px;
   top: 1195px;
-  width: 1348px;
+  width: 100%;
   height: 530px;
 }
 
@@ -337,7 +334,7 @@ html, body {
   font-size: 40px;
   position: absolute;
   text-align: center;
-  width: 1348px;
+  width: 100%;
   font-family: 'Oswald', sans-serif;
 }
 
@@ -356,7 +353,7 @@ html, body {
 #educationNote {
   z-index: 2;
   top: 80px;
-  width: 1348px;
+  width: 100%;
   position: absolute;
   text-align: center;
   font-family: 'Quicksand', sans-serif;
@@ -368,11 +365,11 @@ html, body {
   opacity: 0;
   top: -2.5%;
   height: 111.25%;
-  width: 1348px;
+  width: 100%;
   position: absolute;
   background-image: url(../images/BCHSPainting.jpg);
   background-repeat: no-repeat;
-  background-size: 1348px 650px;
+  background-size: 100% 650px;
   background-attachment: fixed;
   transition: .5s ease;
 }
@@ -382,11 +379,11 @@ html, body {
   opacity: 0;
   top: -2.5%;
   height: 111.25%;
-  width: 1348px;
+  width: 100%;
   position: absolute;
   background-image: url(../images/google-kirkland-office-front.jpg);
   background-repeat: no-repeat;
-  background-size: 1348px 650px;
+  background-size: 100% 650px;
   background-attachment: fixed;
   transition: .5s ease;
 }
@@ -491,7 +488,7 @@ html, body {
 #education_tabs {
   z-index: 2;
   height: 25px;
-  width: 1336px;
+  width: 99%;
   bottom: 5px;
   display: inline-block;
   position: absolute;
@@ -554,7 +551,7 @@ p:hover:not(.active) {
   position: absolute;
   top: 1787px;
   height: 650px;
-  width: 1348px;
+  width: 100%;
   left: 0px;
 }
 
@@ -671,7 +668,7 @@ p:hover:not(.active) {
 
 #git_tags {
   margin-top: 20%;
-  left: 40%;
+  /* left: 40%; */
   opacity: 0;
   transition: .3s;
 }
@@ -691,9 +688,10 @@ p:hover:not(.active) {
 .guava {
   bottom: 125px;
   top: 85%;
-  left: 60%;
+  left: 27%;
   height: 32px;
   width: 150px;
+  text-align: left;
   position: absolute;
   border-radius: 50px;
   background-color: beige;
@@ -710,7 +708,7 @@ p:hover:not(.active) {
 
 #guavaName {
   top: -15px;
-  left: 50px;
+  left: 3.7%;
   position: absolute;
   transition: .3s;
 }
@@ -726,9 +724,10 @@ p:hover:not(.active) {
 .dmart {
   top: 85%;
   bottom: 125px;
-  left: 74%;
+  left: 30%;
   height: 32px;
   width: 150px;
+  text-align: left;
   position: absolute;
   border-radius: 50px;
   background-color: beige;
@@ -745,7 +744,7 @@ p:hover:not(.active) {
 
 #dmartName {
   top: -15px;
-  left: 50px;
+  left: 3.7%;
   position: absolute;
   transition: .3s;
 }
@@ -757,7 +756,7 @@ p:hover:not(.active) {
   top: 2425px;
   left: 0px;
   height: 325px;
-  width: 1348px;
+  width: 100%;
   color: white;
   background-color: #26262a;
 }
@@ -782,7 +781,7 @@ p:hover:not(.active) {
 
 #contactNote {
   top: 85px;
-  left: 44%;
+  width: 100%;
   padding-bottom: 20px;
   position: absolute;
   text-align: center;
@@ -802,6 +801,7 @@ p:hover:not(.active) {
 
 #link_account {
   position: absolute;
+  width: 100%;
   height: 20px;
   top: 210px;
   left: 21%;
@@ -822,6 +822,7 @@ p:hover:not(.active) {
 #git_account {
   color: white;
   position: absolute;
+  width: 100%;
   height: 20px;
   top: 210px;
   left: 45%;
@@ -841,6 +842,7 @@ p:hover:not(.active) {
 
 #mail_account {
   position: absolute;
+  width: 100%;
   height: 20px;
   top: 210px;
   left: 67%;
@@ -850,7 +852,7 @@ p:hover:not(.active) {
 
 .bottombar {
   height: 25px;
-  width: 1336px;
+  width: 100%;
   bottom: 45px;
   display: inline-block;
   position: absolute;
