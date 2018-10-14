@@ -950,8 +950,8 @@ p:hover:not(.active) {
 }
 
 #mail_account {
-  position: relative;
-  top: 20px;
+  position: absolute;
+  top: 220px;
   left: 69%;
   opacity: 0;
   transition: .3s;
