@@ -55,7 +55,7 @@ h2 {
   /* margin-bottom: 0px; */
   background-image: url(../images/mountain.jpg);
   background-repeat: no-repeat;
-  background-size: 650px 650px;
+  background-size: 100% 650px;
   background-attachment: fixed;
 }
 
@@ -408,7 +408,7 @@ h2 {
   /* margin-bottom: 10px; */
   background-image: url(../images/BCHSPainting.jpg);
   background-repeat: no-repeat;
-  background-size: 650px 650px;
+  background-size: 100% 650px;
   background-attachment: fixed;
   transition: .5s ease;
 }
@@ -424,7 +424,7 @@ h2 {
   /* margin-bottom: 10px; */
   background-image: url(../images/google-kirkland-office-front.jpg);
   background-repeat: no-repeat;
-  background-size: 650px 650px;
+  background-size: 100% 650px;
   background-attachment: fixed;
   transition: .5s ease;
 }
@@ -883,7 +883,7 @@ p:hover:not(.active) {
 }
 
 #contactNote {
-  top: 163px;
+  top: 85px;
   left: 44%;
   padding-bottom: 20px;
   position: absolute;
@@ -915,7 +915,7 @@ p:hover:not(.active) {
 
 #link_account {
   position: absolute;
-  top: 390px;
+  top: 400px;
   left: 21%;
   opacity: 0;
   transition: .3s;
@@ -934,7 +934,7 @@ p:hover:not(.active) {
 #git_account {
   color: white;
   position: absolute;
-  top: 390px;
+  top: 400px;
   left: 46%;
   opacity: 0;
   transition: .3s;
@@ -952,7 +952,7 @@ p:hover:not(.active) {
 
 #mail_account {
   position: absolute;
-  top: 390px;
+  top: 400px;
   left: 69%;
   opacity: 0;
   transition: .3s;
