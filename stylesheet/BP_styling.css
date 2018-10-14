@@ -8,7 +8,7 @@ h2 {
 }
 
 .all {
-  width: 100%;
+  width: 1348px;
 }
 
 #open_side {
@@ -42,7 +42,7 @@ h2 {
   left: 0px;
   top: 0px;
   height: 650px;
-  width: 100%;
+  width: 1348px;
   padding: 0px;
 }
 
@@ -50,18 +50,18 @@ h2 {
   z-index: 1;
   opacity: 0.5;
   height: 650px;
-  width: 100%;
+  width: 1348px;
   margin-top: 0px;
   background-image: url(../images/mountain.jpg);
   background-repeat: no-repeat;
-  background-size: 100% 650px;
+  background-size: 1348px 650px;
   background-attachment: fixed;
 }
 
 #title {
   z-index: 2;
   font-size: 55px;
-  width: 100%;
+  width: 1348px;
   margin-top: 190px;
   font-family: 'Oswald', sans-serif;
   font-variant: normal;
@@ -91,7 +91,7 @@ h2 {
   position: absolute;
   color: black;
   text-align: center;
-  width: 100%;
+  width: 1348px;
   margin-top: 270px;
   opacity: 0;
   transition: 1s;
@@ -208,7 +208,7 @@ h2 {
   position: absolute;
   left: 0px;
   top: 650px;
-  width: 100%;
+  width: 1348px;
   height: 548px;
   background-color: lightblue;
 }
@@ -216,7 +216,7 @@ h2 {
 #Intro {
   color: black;
   font-size: 40px;
-  width: 100%;
+  width: 1348px;
   position: absolute;
   text-align: center;
   font-family: 'Oswald', sans-serif;
@@ -236,7 +236,7 @@ h2 {
 
 #introNote {
   top: 80px;
-  width: 100%;
+  width: 1348px;
   padding-bottom: 20px;
   position: absolute;
   text-align: center;
@@ -323,7 +323,7 @@ h2 {
   position: absolute;
   left: 0px;
   top: 1195px;
-  width: 100%;
+  width: 1348px;
   height: 530px;
 }
 
@@ -333,7 +333,7 @@ h2 {
   font-size: 40px;
   position: absolute;
   text-align: center;
-  width: 100%;
+  width: 1348px;
   font-family: 'Oswald', sans-serif;
 }
 
@@ -352,7 +352,7 @@ h2 {
 #educationNote {
   z-index: 2;
   top: 80px;
-  width: 100%;
+  width: 1348px;
   position: absolute;
   text-align: center;
   font-family: 'Quicksand', sans-serif;
@@ -364,11 +364,11 @@ h2 {
   opacity: 0;
   top: -2.5%;
   height: 590px;
-  width: 100%;
+  width: 1348px;
   position: absolute;
   background-image: url(../images/BCHSPainting.jpg);
   background-repeat: repeat;
-  background-size: 100% 650px;
+  background-size: 1348px 650px;
   background-attachment: fixed;
   transition: .5s ease;
 }
@@ -378,11 +378,11 @@ h2 {
   opacity: 0;
   top: -2.5%;
   height: 590px;
-  width: 100%;
+  width: 1348px;
   position: absolute;
   background-image: url(../images/google-kirkland-office-front.jpg);
   background-repeat: repeat;
-  background-size: 100% 650px;
+  background-size: 1348px 650px;
   background-attachment: fixed;
   transition: .5s ease;
 }
@@ -550,7 +550,7 @@ p:hover:not(.active) {
   position: absolute;
   top: 1787px;
   height: 650px;
-  width: 100%;
+  width: 1348px;
   left: 0px;
 }
 
@@ -753,7 +753,7 @@ p:hover:not(.active) {
   top: 2425px;
   left: 0px;
   height: 325px;
-  width: 100%;
+  width: 1348px;
   color: white;
   background-color: #26262a;
 }
