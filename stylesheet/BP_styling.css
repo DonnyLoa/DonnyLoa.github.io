@@ -40,7 +40,7 @@ h2 {
   left: 0px;
   top: 0px;
   height: 650px;
-  width: 1355px;
+  width: 1350px;
   padding: 0px;
   /* margin-left: 0%; */
   /* padding-right: 30px; */
@@ -55,7 +55,7 @@ h2 {
   /* margin-bottom: 0px; */
   background-image: url(../images/mountain.jpg);
   background-repeat: no-repeat;
-  background-size: 100% 650px;
+  background-size: 1350px 650px;
   background-attachment: fixed;
 }
 
@@ -225,7 +225,7 @@ h2 {
 #Intro {
   color: black;
   font-size: 40px;
-  width: 100%;
+  width: 1350;
   position: absolute;
   text-align: center;
   /* top: 40%; */
@@ -250,7 +250,7 @@ h2 {
 #introNote {
   top: 80px;
   /* left: 41%; */
-  width: 100%;
+  width: 1350;
   padding-bottom: 20px;
   position: absolute;
   text-align: center;
@@ -362,7 +362,7 @@ h2 {
   text-align: center;
   /* top: 40%; */
   /* left: 50%; */
-  width: 100%;
+  width: 1350;
 
   /* padding-bottom: 20%; */
   font-family: 'Oswald', sans-serif;
@@ -390,7 +390,7 @@ h2 {
   /* text-align: center; */
   /* top: 14%;
   left: 35%; */
-  width: 100%;
+  width: 1350;
   position: absolute;
   text-align: center;
   font-family: 'Quicksand', sans-serif;
@@ -402,13 +402,13 @@ h2 {
   opacity: 0;
   top: -2.5%;
   height: 111.25%;
-  width: 100%;
+  width: 1350;
   position: absolute;
   /* margin-top: 0px; */
   /* margin-bottom: 10px; */
   background-image: url(../images/BCHSPainting.jpg);
   background-repeat: no-repeat;
-  background-size: 100% 650px;
+  background-size: 1350 650px;
   background-attachment: fixed;
   transition: .5s ease;
 }
@@ -418,13 +418,13 @@ h2 {
   opacity: 0;
   top: -2.5%;
   height: 111.25%;
-  width: 100%;
+  width: 1350;
   position: absolute;
   /* margin-top: 0px; */
   /* margin-bottom: 10px; */
   background-image: url(../images/google-kirkland-office-front.jpg);
   background-repeat: no-repeat;
-  background-size: 100% 650px;
+  background-size: 1350 650px;
   background-attachment: fixed;
   transition: .5s ease;
 }
@@ -473,7 +473,7 @@ h2 {
   margin-left: 120px;
   top: 324px;
   left: 400px;
-  /* width: 100%; */
+  /* width: 1350; */
   /* opacity: 0; */
   transition: .5s;
   /* transition-delay: 1.5s; */
@@ -522,7 +522,7 @@ h2 {
   margin-left: 120px;
   top: 324px;
   left: 400px;
-  /* width: 100%; */
+  /* width: 1350; */
   /* opacity: 0; */
   transition: .5s;
   /* transition-delay: 1.5s; */
@@ -547,7 +547,7 @@ h2 {
 #education_tabs {
   z-index: 2;
   height: 25px;
-  width: 99%;
+  width: 1336px;
   bottom: 5px;
   display: inline-block;
   position: absolute;
@@ -862,7 +862,7 @@ p:hover:not(.active) {
 }
 
 #Contact {
-  /* top: 100%; */
+  /* top: 1350; */
   font-size: 40px;
   transition: .5s ease;
 }
@@ -960,7 +960,7 @@ p:hover:not(.active) {
 
 .bottombar {
   height: 25px;
-  width: 99%;
+  width: 1336px;
   bottom: 45px;
   display: inline-block;
   position: absolute;
