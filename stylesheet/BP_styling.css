@@ -72,7 +72,7 @@ h2 {
   z-index: 2;
   font-size: 55px;
   width: 1338px;
-  top: 90px;
+  top: 85px;
   font-family: 'Oswald', sans-serif;
   font-variant: normal;
   position: absolute;
@@ -636,7 +636,7 @@ p:hover:not(.active) {
   background-color: lightblue;
   position: absolute;
   top: 1790px;
-  height: 650px;
+  height: 648px;
   width: 1338px;
   left: 0px;
 }
@@ -860,7 +860,7 @@ p:hover:not(.active) {
   z-index: 3;
   font-family: 'Oswald', sans-serif;
   position: absolute;
-  top: 2430px;
+  top: 2428px;
   left: 0px;
   height: 50%;
   width: 1338px;
