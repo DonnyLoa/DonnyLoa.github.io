@@ -107,6 +107,10 @@
 
     <script type="text/javascript">
       function appearScreen() {
+        var container= document.getElementById("all");
+        container.style.height=(window.innerHeight);
+        container.style.width=window.innerWidth;
+
         let sidebarCheck = 0;
         // console.log(window.scrollY);
         if (window.scrollY >= 0 && window.scrollY < 195) {
