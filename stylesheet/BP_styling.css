@@ -55,17 +55,8 @@ h2 {
   /* margin-bottom: 0px; */
   background-image: url(../images/mountain.jpg);
   background-repeat: no-repeat;
-  background-size: 100% 100%;
+  background-size: 650px 650px;
   background-attachment: fixed;
-}
-
-#background_image {
-  opacity: 0.5;
-  size: cover;
-  position: fixed;
-  height: 10%;
-  width: 100%;
-  /* left: -1400px; */
 }
 
 #title {
@@ -417,7 +408,7 @@ h2 {
   /* margin-bottom: 10px; */
   background-image: url(../images/BCHSPainting.jpg);
   background-repeat: no-repeat;
-  background-size: 100% 100%;
+  background-size: 650px 650px;
   background-attachment: fixed;
   transition: .5s ease;
 }
@@ -433,7 +424,7 @@ h2 {
   /* margin-bottom: 10px; */
   background-image: url(../images/google-kirkland-office-front.jpg);
   background-repeat: no-repeat;
-  background-size: 100% 100%;
+  background-size: 650px 650px;
   background-attachment: fixed;
   transition: .5s ease;
 }
@@ -635,7 +626,7 @@ p:hover:not(.active) {
   font-family: 'Oswald', sans-serif;
   background-color: lightblue;
   position: absolute;
-  top: 1785px;
+  top: 1787px;
   height: 650px;
   width: 1340px;
   left: 0px;
@@ -862,7 +853,7 @@ p:hover:not(.active) {
   position: absolute;
   top: 2425px;
   left: 0px;
-  height: 50%;
+  height: 325px;
   width: 1340px;
   /* bottom: -50px; */
   /* padding-top: 1px; */
@@ -892,7 +883,7 @@ p:hover:not(.active) {
 }
 
 #contactNote {
-  top: 25%;
+  top: 163px;
   left: 44%;
   padding-bottom: 20px;
   position: absolute;
@@ -916,7 +907,7 @@ p:hover:not(.active) {
   opacity: 0;
   height: 66px;
   width: 66px;
-  top: 60%;
+  top: 390px;
   left: 23%;
   position: absolute;
   transition: .5s;
@@ -924,7 +915,7 @@ p:hover:not(.active) {
 
 #link_account {
   position: absolute;
-  top: 60%;
+  top: 390px;
   left: 21%;
   opacity: 0;
   transition: .3s;
@@ -934,7 +925,7 @@ p:hover:not(.active) {
   opacity: 0;
   height: 64px;
   width: 64px;
-  top: 60%;
+  top: 390px;
   left: 48%;
   position: absolute;
   transition: .5s;
@@ -943,7 +934,7 @@ p:hover:not(.active) {
 #git_account {
   color: white;
   position: absolute;
-  top: 60%;
+  top: 390px;
   left: 46%;
   opacity: 0;
   transition: .3s;
@@ -953,7 +944,7 @@ p:hover:not(.active) {
   opacity: 0;
   height: 64px;
   width: 64px;
-  top: 60%;
+  top: 390px;
   left: 73%;
   position: absolute;
   transition: .5s;
@@ -961,7 +952,7 @@ p:hover:not(.active) {
 
 #mail_account {
   position: absolute;
-  top: 60%;
+  top: 390px;
   left: 69%;
   opacity: 0;
   transition: .3s;
