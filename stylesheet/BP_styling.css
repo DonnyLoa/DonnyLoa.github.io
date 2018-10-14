@@ -49,7 +49,7 @@ h2 {
 #background {
   z-index: 1;
   opacity: 0.5;
-  height: 600px;
+  height: 650px;
   width: 1338px;
   margin-top: 0px;
   /* margin-bottom: 0px; */
@@ -635,7 +635,7 @@ p:hover:not(.active) {
   font-family: 'Oswald', sans-serif;
   background-color: lightblue;
   position: absolute;
-  top: 1775px;
+  top: 1790px;
   height: 650px;
   width: 1338px;
   left: 0px;
@@ -860,7 +860,7 @@ p:hover:not(.active) {
   z-index: 3;
   font-family: 'Oswald', sans-serif;
   position: absolute;
-  top: 2370px;
+  top: 2430px;
   left: 0px;
   height: 50%;
   width: 1338px;
