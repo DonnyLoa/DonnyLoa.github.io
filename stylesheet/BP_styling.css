@@ -268,7 +268,7 @@ h2 {
   height: auto;
   position: absolute;
   /* text-align: center; */
-  clip: rect(10px,10px,10px,10px);
+  /* clip: rect(10px,10px,10px,10px); */
   top: 200px;
   left: -50%;
   /* transform: scale(0.25); */
@@ -928,7 +928,7 @@ p:hover:not(.active) {
   height: 64px;
   width: 64px;
   top: 160px;
-  left: 48%;
+  left: 47%;
   position: absolute;
   transition: .5s;
 }
