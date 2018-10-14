@@ -40,7 +40,7 @@ h2 {
   left: 0px;
   top: 0px;
   height: 650px;
-  width: 1340px;
+  width: 100%;
   padding: 0px;
   /* margin-left: 0%; */
   /* padding-right: 30px; */
@@ -915,7 +915,7 @@ p:hover:not(.active) {
 
 #link_account {
   position: absolute;
-  top: 20px;
+  top: 100px;
   left: 21%;
   opacity: 0;
   transition: .3s;
@@ -934,7 +934,7 @@ p:hover:not(.active) {
 #git_account {
   color: white;
   position: absolute;
-  top: 20px;
+  top: 100px;
   left: 46%;
   opacity: 0;
   transition: .3s;
@@ -952,7 +952,7 @@ p:hover:not(.active) {
 
 #mail_account {
   position: absolute;
-  top: 20px;
+  top: 100px;
   left: 69%;
   opacity: 0;
   transition: .3s;
