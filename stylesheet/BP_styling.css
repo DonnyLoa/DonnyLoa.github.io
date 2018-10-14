@@ -72,7 +72,7 @@ h2 {
   z-index: 2;
   font-size: 55px;
   width: 1338px;
-  top: 100px;
+  top: 90px;
   font-family: 'Oswald', sans-serif;
   font-variant: normal;
   position: absolute;
@@ -113,7 +113,7 @@ h2 {
 .topbar {
   height: 50px;
   top: -20px;
-  width: 1212px;
+  width: 1322px;
   display: inline-block;
   position: absolute;
   list-style-type: none;
@@ -226,7 +226,7 @@ h2 {
   position: absolute;
   left: 0px;
   top: 100%;
-  width: 1228px;
+  width: 1338px;
   height: 545px;
   background-color: beige;
 }
@@ -359,7 +359,7 @@ h2 {
   position: absolute;
   left: 0px;
   top: 1135px;
-  width: 1228px;
+  width: 1338px;
   height: 530px;
 }
 
@@ -637,7 +637,7 @@ p:hover:not(.active) {
   position: absolute;
   top: 1725px;
   height: 650px;
-  width: 1228px;
+  width: 1338px;
   left: 0px;
 }
 
@@ -863,7 +863,7 @@ p:hover:not(.active) {
   top: 2370px;
   left: 0px;
   height: 50%;
-  width: 1228px;
+  width: 1338px;
   /* bottom: -50px; */
   /* padding-top: 1px; */
   color: white;
