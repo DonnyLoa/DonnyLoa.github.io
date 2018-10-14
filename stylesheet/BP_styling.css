@@ -40,7 +40,7 @@ h2 {
   left: 0px;
   top: 0px;
   height: 650px;
-  width: 1350px;
+  width: 1348px;
   padding: 0px;
   /* margin-left: 0%; */
   /* padding-right: 30px; */
@@ -50,19 +50,19 @@ h2 {
   z-index: 1;
   opacity: 0.5;
   height: 650px;
-  width: 1350px;
+  width: 1348px;
   margin-top: 0px;
   /* margin-bottom: 0px; */
   background-image: url(../images/mountain.jpg);
   background-repeat: no-repeat;
-  background-size: 1350px 650px;
+  background-size: 1348px 650px;
   background-attachment: fixed;
 }
 
 #title {
   z-index: 2;
   font-size: 55px;
-  width: 1350px;
+  width: 1348px;
   top: 85px;
   font-family: 'Oswald', sans-serif;
   font-variant: normal;
@@ -93,7 +93,7 @@ h2 {
   position: absolute;
   color: black;
   text-align: center;
-  width: 1350px;
+  width: 1348px;
   /* margin-top: 40%; */  /*small browser */
   margin-top: 270px;
   opacity: 0;
@@ -217,7 +217,7 @@ h2 {
   position: absolute;
   left: 0px;
   top: 650px;
-  width: 1350px;
+  width: 1348px;
   height: 548px;
   background-color: beige;
 }
@@ -225,7 +225,7 @@ h2 {
 #Intro {
   color: black;
   font-size: 40px;
-  width: 1350;
+  width: 1348px;
   position: absolute;
   text-align: center;
   /* top: 40%; */
@@ -250,7 +250,7 @@ h2 {
 #introNote {
   top: 80px;
   /* left: 41%; */
-  width: 1350;
+  width: 1348px;
   padding-bottom: 20px;
   position: absolute;
   text-align: center;
@@ -350,7 +350,7 @@ h2 {
   position: absolute;
   left: 0px;
   top: 1195px;
-  width: 1350px;
+  width: 1348px;
   height: 530px;
 }
 
@@ -362,7 +362,7 @@ h2 {
   text-align: center;
   /* top: 40%; */
   /* left: 50%; */
-  width: 1350;
+  width: 1348px;
 
   /* padding-bottom: 20%; */
   font-family: 'Oswald', sans-serif;
@@ -390,7 +390,7 @@ h2 {
   /* text-align: center; */
   /* top: 14%;
   left: 35%; */
-  width: 1350;
+  width: 1348px;
   position: absolute;
   text-align: center;
   font-family: 'Quicksand', sans-serif;
@@ -402,13 +402,13 @@ h2 {
   opacity: 0;
   top: -2.5%;
   height: 111.25%;
-  width: 1350;
+  width: 1348;
   position: absolute;
   /* margin-top: 0px; */
   /* margin-bottom: 10px; */
   background-image: url(../images/BCHSPainting.jpg);
   background-repeat: no-repeat;
-  background-size: 1350 650px;
+  background-size: 1348 650px;
   background-attachment: fixed;
   transition: .5s ease;
 }
@@ -418,13 +418,13 @@ h2 {
   opacity: 0;
   top: -2.5%;
   height: 111.25%;
-  width: 1350;
+  width: 1348;
   position: absolute;
   /* margin-top: 0px; */
   /* margin-bottom: 10px; */
   background-image: url(../images/google-kirkland-office-front.jpg);
   background-repeat: no-repeat;
-  background-size: 1350 650px;
+  background-size: 1348 650px;
   background-attachment: fixed;
   transition: .5s ease;
 }
@@ -473,7 +473,7 @@ h2 {
   margin-left: 120px;
   top: 324px;
   left: 400px;
-  /* width: 1350; */
+  /* width: 1348; */
   /* opacity: 0; */
   transition: .5s;
   /* transition-delay: 1.5s; */
@@ -522,7 +522,7 @@ h2 {
   margin-left: 120px;
   top: 324px;
   left: 400px;
-  /* width: 1350; */
+  /* width: 1348; */
   /* opacity: 0; */
   transition: .5s;
   /* transition-delay: 1.5s; */
@@ -628,7 +628,7 @@ p:hover:not(.active) {
   position: absolute;
   top: 1787px;
   height: 650px;
-  width: 1350px;
+  width: 1348px;
   left: 0px;
 }
 
@@ -854,7 +854,7 @@ p:hover:not(.active) {
   top: 2425px;
   left: 0px;
   height: 325px;
-  width: 1350px;
+  width: 1348px;
   /* bottom: -50px; */
   /* padding-top: 1px; */
   color: white;
@@ -862,7 +862,6 @@ p:hover:not(.active) {
 }
 
 #Contact {
-  /* top: 1350; */
   font-size: 40px;
   transition: .5s ease;
 }
