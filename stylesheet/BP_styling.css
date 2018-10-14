@@ -271,7 +271,8 @@ h2 {
   /* clip: rect(1px,1px,1px,1px); */
   top: 200px;
   left: -50%;
-  transform: scale(0.25);  
+  /* transform: scale(0.25); */
+  overflow: hidden;
   z-index: 1;
   margin: auto;
   transition: .75s ease;
