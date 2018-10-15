@@ -489,7 +489,7 @@ h2 {
 #education_tabs {
   z-index: 2;
   height: 25px;
-  width: 1336px;
+  width: 1585px;
   bottom: 5px;
   display: inline-block;
   position: absolute;
@@ -588,7 +588,7 @@ p:hover:not(.active) {
   position: absolute;
   opacity: 0.5;
   top: 35%;
-  left: 33%;
+  left: 35%;
   transition: .5s ease;
   border: 5px solid white;
   border-radius: 10px;
@@ -724,7 +724,7 @@ p:hover:not(.active) {
 .dmart {
   top: 85%;
   bottom: 125px;
-  left: 74%;
+  left: 70%;
   height: 32px;
   width: 150px;
   position: absolute;
@@ -780,7 +780,7 @@ p:hover:not(.active) {
 
 #contactNote {
   top: 85px;
-  left: 44%;
+  left: 45%;
   padding-bottom: 20px;
   position: absolute;
   text-align: center;
@@ -848,7 +848,7 @@ p:hover:not(.active) {
 
 .bottombar {
   height: 25px;
-  width: 1336px;
+  width: 1585px;
   bottom: 45px;
   display: inline-block;
   position: absolute;
