@@ -41,13 +41,10 @@ h2 {
   position: absolute;
   left: 0px;
   top: 0px;
-<<<<<<< HEAD
   height: 100%;
   width: 1500px;
-=======
   height: 650px;
   width: 1348px;
->>>>>>> 03dc772f1e1079626c56254bffc3ea5b951e572f
   padding: 0px;
 }
 
@@ -330,7 +327,7 @@ h2 {
   position: absolute;
   left: 0px;
   top: 1195px;
-  width: 1348px;
+  width: 1600px;
   height: 530px;
 }
 
