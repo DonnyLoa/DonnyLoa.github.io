@@ -108,14 +108,14 @@
     <script type="text/javascript">
       function appearScreen() {
         let container= document.getElementById("all");
-        window.style.height=(window.innerHeight);
-        window.style.width=window.innerWidth;
+        // window.style.height=window.innerHeight;
+        // window.style.width=window.innerWidth;
 
         window.resizeTo(window.outerWidth,window.outerHeight);
 
         let sidebarCheck = 0;
         console.log(window.scrollY);
-        if (window.scrollY >= 0 && window.scrollY < 195) {
+        if (window.scrollY >= 0) {
           document.getElementById("Homebar").style.backgroundColor = "black";
           document.getElementById("Aboutbar").style.backgroundColor = "";
           document.getElementById("Edubar").style.backgroundColor = "";
@@ -124,7 +124,7 @@
           appearCover();
           hide_sidebar();
         }
-        if (window.scrollY >= 195 && window.scrollY < 1200) {
+        if (window.scrollY >= 200 && window.scrollY <= 900) {
           document.getElementById("Homebar").style.backgroundColor = "";
           document.getElementById("Aboutbar").style.backgroundColor = "black";
           document.getElementById("Edubar").style.backgroundColor = "";
@@ -136,10 +136,10 @@
           document.getElementById("open_side").style.color = "black";
           open_prompt();
         }
-        if (window.scrollY >= 500 && window.scrollY < 700) {
+        if (window.scrollY >= 500 && window.scrollY < 900) {
           document.getElementById("open_side").style.color = "green";
         }
-        if (window.scrollY >= 700 && window.scrollY < 2150) {
+        if (window.scrollY >= 900 && window.scrollY < 1700) {
           document.getElementById("Homebar").style.backgroundColor = "";
           document.getElementById("Aboutbar").style.backgroundColor = "";
           document.getElementById("Edubar").style.backgroundColor = "black";
@@ -147,7 +147,7 @@
           document.getElementById("Contactbar").style.backgroundColor = "";
           appearEducation();
         }
-        if (window.scrollY >= 1450 && window.scrollY < 1900) {
+        if (window.scrollY >= 1500 && window.scrollY < 1900) {
           document.getElementById("open_side").style.color = "green";
           document.getElementById("Homebar").style.backgroundColor = "";
           document.getElementById("Aboutbar").style.backgroundColor = "";
