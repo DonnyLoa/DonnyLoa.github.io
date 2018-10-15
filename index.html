@@ -11,8 +11,8 @@
     <link href="https://fonts.googleapis.com/css?family=Quicksand" rel="stylesheet" type='text/css'>
     <link type="text/css" rel="stylesheet" href="stylesheet/BP_styling.css">
   </head>
-  <body>
 
+  <body>
   <div class="all" onmouseover="appearScreen()" onkeypress="appearScreen()" onclick="appearScreen()" onscroll="appearScreen()" onload="appearScreen()">
     <span id="Home"></span>
     <div class="Cover" onmouseover="appearCover()">
@@ -44,12 +44,8 @@
       <p id="line2"></p>
       <p id="introNote">Hey, it's nice to meet you.</p>
 
-      <!-- <div> -->
       <img id="self_image" src="images/senior_pic.jpg" alt="portrait">
       <p id="info_title">Here's Who I Am.</p>
-        <!-- <p id="bubble1"></p> -->
-        <!-- <p id="bubble2"></p> -->
-        <!-- <p id="bubble3"></p> -->
       <p id="info_line"></p>
       <p id="info">I'm a Computer Science major planning to pursue the field
         of data science and delve into <br> working with artificial intelligence.
@@ -57,19 +53,18 @@
         Boston Dynamics' robot creations and Google's autonomous cars, <br> which
         I'd like to contribute to in the future. During my leisure time outside of coding,
         I also <br> enjoy spending time with my two dogs, practicing music on the piano,
-        going for a run <br> occassionally, and playing a good JRPG or two. <br><br>
+        going for a run <br> occassionally, and playing a good game or two. <br><br>
         This website was developed using HTML, CSS, and Javascript, and incorporates
         DOM <br> manipulation for the dynamic side- and top-bar navigation tabs, as well
         as various other <br> features on this site. Below are the projects I've worked
         on so far, my experiences and <br> education, and my contact info. Thank you
         for visiting my website!
       </p>
-      <!-- </div> -->
     </div>
 
     <div class="Education" onmouseover="appearEducation()">
       <h2 id="Education"><a name="Education">Here's where I've been</a></h2>
-      <p id="linet"></p>
+      <p id="line_education"></p>
       <p id="educationNote">Click the arrows or bubbles to switch between each page.</p>
       <p id="educationPic1"></p>
       <p id="educationPic2"></p>
@@ -78,11 +73,11 @@
         <p id="education_title1">Bear Creek High School - Stockton, California</p>
         <p id="education_line1"></p>
         <p id="edu_info1">It was during my junior and senior years at Bear Creek High
-          School that I first delved into computer science and dedicated myself to
-          learning C++. There, I adopted the mindset and basic programming practices,
-          required in designing and developing programs, including learning how to
-          collaborate with my fellow peers, thinking in terms of code syntax, and
-          drafting my projects before development. I also became acquainted with how to
+          School that I first delved into computer science and dedicated my time towards
+          learning C++. There, I adopted the logical mindset and basic programming practices
+          required in designing and developing programs, including how to
+          collaborate with my fellow peers, think in terms of code syntax, and
+          draft my projects and ideas before development. I also became acquainted with how to
           develop programs in IDEs, most particularly Visual Studio.</p>
       </div>
 
@@ -93,11 +88,12 @@
           Computer Science Summer Institute program, where I greatly broadened
           my knowledge and expanded my experience with computer programming.
           Included in my time there, I learned how to program in HTML, CSS,
-          Javascript, and Python, as well as utilizing Google App Engine in setting
-          up and deploying an application and utilizing GitHub for collaborative projects.
-          For our final week, I teamed with two other peers to design and present
-          a project to Google Engineers, showcasing and incorporating all we had
-          learned during our time at the program.
+          Javascript, and Python, incorporate Google App Engine in setting
+          up and deploying an application, and utilize GitHub for collaborative
+          projects. For our final week, I collaborated with two other peers to
+          design, develop, and present the web app game Magic Trivia to Google
+          engineers, showcasing and incorporating all we had learned during our
+          time at the program.
         </p>
       </div>
 
@@ -111,74 +107,11 @@
 
     <script type="text/javascript">
       function appearScreen() {
-        let size = [window.width,window.height];
-        // let width = window.width;
-        // let keepHeight = window.height;
-        // window.resizeTo(width,keepHeight);
-        window.resizeTo(size[0],size[1]);
+        let container= document.getElementById("all");
+        window.style.height=(window.innerHeight);
+        window.style.width=window.innerWidth;
 
-        // console.log(window.innerWidth);
-
-        // if (window.innerWidth >= 800 && window.innerWidth <= 1100) {
-        //   document.getElementById("resizeIntro").style.height = "200%";
-        // }
-
-        // if (window.innerWidth <= 800) {
-        //   console.log(document.getElementById("self_image").style.width);
-        //
-        //   document.getElementById("sidebar").style.left = "-100%";
-        //   document.getElementById("open_side").style.left = "-100%";
-        //
-        //   document.getElementById("Intro").style.height = "auto";
-        //
-        //   document.getElementById("self_image").style.transition = "0s";
-        //   document.getElementById("self_image").style.transitionDelay = "0s";
-        //   document.getElementById("self_image").style.top = "35%";
-        //   document.getElementById("self_image").style.width = "60%";
-        //   document.getElementById("self_image").style.left = "60%";
-        //   document.getElementById("self_image").style.marginLeft = "4%";
-        //   document.getElementById("info_title").style.top = "80%";
-        //   document.getElementById("info_line").style.top = "84%";
-        //   document.getElementById("info").style.top = "85%";
-        //   document.getElementById("info_title").style.Left = "0%";
-        //   document.getElementById("info_title").style.marginLeft = "-25%";
-        //   document.getElementById("info_title").style.marginRight = "10%";
-        //   document.getElementById("info_line").style.Left = "0%";
-        //   document.getElementById("info_line").style.marginLeft = "-300%"; //tjnrfymdrrynr yuty change
-        //   document.getElementById("info_line").style.marginRight = "10%";
-        //   document.getElementById("info_line").style.Right = "10%";
-        //   document.getElementById("info_line").style.opacity = "0";
-        //   document.getElementById("info").style.Left = "0%";
-        //   document.getElementById("info").style.marginLeft = "-30%";
-        //   document.getElementById("info").style.marginRight = "10%";
-        //   document.getElementById("info_title").style.transition = "0s";
-        //   document.getElementById("info_line").style.transition = "0s";
-        //   document.getElementById("info").style.transition = "0s";
-        //   document.getElementById("info_title").style.transitionDelay = "0s";
-        //   document.getElementById("info_line").style.transitionDelay = "0s";
-        //   document.getElementById("info").style.transitionDelay = "0s";
-        //   // document.getElementById("info_line").style.width = "0px";
-        //   // document.getElementById("info_line").style.opacity = "0";
-        //   document.getElementById("info_line").style.width = "auto";
-        //   document.getElementById("info").style.width = "auto";
-        //
-        // }
-        // else {
-        //   document.getElementById("self_image").style.width = "30%";
-        //   // document.getElementById("self_image").style.transition = ".75s ease";
-        //   // document.getElementById("self_image").style.transitionDelay = ".5s";
-        //   document.getElementById("info_title").style.top = "30%";
-        //   document.getElementById("info_line").style.top = "34%";
-        //   document.getElementById("info").style.top = "35%";
-        //   document.getElementById("info_title").style.left = "40%";
-        //   document.getElementById("info_line").style.left = "40%";
-        //   document.getElementById("info").style.left = "38%";
-        //   document.getElementById("info_title").style.marginLeft = "120px";
-        //   document.getElementById("info_line").style.marginLeft = "120px";
-        //   document.getElementById("info").style.marginLeft = "120px";
-        //   document.getElementById("info").style.width = "auto";
-        //
-        // }
+        window.resizeTo(window.outerWidth,window.outerHeight);
 
         let sidebarCheck = 0;
         // console.log(window.scrollY);
@@ -214,7 +147,7 @@
           document.getElementById("Contactbar").style.backgroundColor = "";
           appearEducation();
         }
-        if (window.scrollY >= 1450 && window.scrollY < 2300) {
+        if (window.scrollY >= 1450 && window.scrollY < 1900) {
           document.getElementById("open_side").style.color = "green";
           document.getElementById("Homebar").style.backgroundColor = "";
           document.getElementById("Aboutbar").style.backgroundColor = "";
@@ -223,12 +156,12 @@
           document.getElementById("Contactbar").style.backgroundColor = "";
           appearProjects();
         }
-        if (window.scrollY >= 2100) {
+        if (window.scrollY >= 1900) {
           close_sidebar();
           document.getElementById("open_side").style.color = "black";
           open_prompt();
         }
-        if (window.scrollY >= 2250) {
+        if (window.scrollY >= 1900) {
           document.getElementById("Homebar").style.backgroundColor = "";
           document.getElementById("Aboutbar").style.backgroundColor = "";
           document.getElementById("Edubar").style.backgroundColor = "";
@@ -238,25 +171,25 @@
         }
       }
 
-      document.getElementById("sidebar").style.marginLeft = "-20%";
+      document.getElementById("sidebar").style.marginLeft = "-140px";
       document.getElementById("sidebar").style.width = "125px";
 
       function open_prompt() {
         sidebarCheck = 1;
-        document.getElementById("sidebar").style.marginLeft = "-20%";
-        document.getElementById("open_side").style.marginLeft = "-5%";
+        document.getElementById("sidebar").style.marginLeft = "-140px";
+        document.getElementById("open_side").style.marginLeft = "-60px";
       }
 
       function open_sidebar() {
         sidebarCheck = 1;
-        document.getElementById("sidebar").style.marginLeft = "-2%";
-        document.getElementById("open_side").style.marginLeft = "-20%";
+        document.getElementById("sidebar").style.marginLeft = "-30px";
+        document.getElementById("open_side").style.marginLeft = "-140px";
       }
 
       function close_sidebar() {
         sidebarCheck = 1;
-        document.getElementById("sidebar").style.marginLeft = "-20%";
-        document.getElementById("open_side").style.marginLeft = "-4.5%";
+        document.getElementById("sidebar").style.marginLeft = "-140px";
+        document.getElementById("open_side").style.marginLeft = "-60px";
       }
 
       function hide_sidebar() {
@@ -310,7 +243,7 @@
       function education1() {
         document.getElementById("bubble1").style.color = "#009933";
         document.getElementById("bubble2").style.color = "gray";
-        document.getElementById("CSSI_tab").style.left = "50%";
+        document.getElementById("CSSI_tab").style.left = "40%";
         document.getElementById("CSSI_tab").style.opacity = "0";
         document.getElementById("educationPic1").style.opacity = "0.4";
         document.getElementById("educationPic2").style.opacity = "0";
@@ -324,25 +257,15 @@
         }, 500);
 
         console.log(document.getElementById("BC_tab").style.opacity);
-        // document.getElementById("edu_info").style.opacity = "1";
-        // document.getElementById("edu_info").style.innerHTML = "It was during my junior and senior years at Bear Creek High" +
-        //   "School that I first delved into computer science and dedicated myself to " +
-        //   "learning C++ and adopting the mindset and skills required in designing and" +
-        //   "developing programs, as well as learning how to develop in IDEs," +
-        //   "most particularly Visual Studio.";
-        // document.getElementById("CSSI_tab").style.left = "0%";
-        // document.getElementById("CSSI_tab").style.opacity = "1";
       }
 
       function education2() {
         document.getElementById("bubble1").style.color = "gray";
         document.getElementById("bubble2").style.color = "#009933";
-        document.getElementById("BC_tab").style.left = "50%";
+        document.getElementById("BC_tab").style.left = "40%";
         document.getElementById("BC_tab").style.opacity = "0";
         document.getElementById("educationPic1").style.opacity = "0";
         document.getElementById("educationPic2").style.opacity = "0.4";
-        // document.getElementById("edu_info").style.innerHTML = "testing code"
-        // document.getElementById("BC_tab").style.transition = "1s";
 
         setTimeout(function() {
           document.getElementById("CSSI_tab").style.left = "0%";
@@ -370,11 +293,9 @@
     <div class="myProjects">
       <h2 id="Project"><a name="Projects">Check out the projects I've made</a></h2>
       <p id="line3"></p>
-      <p id="projectNote">Click the boxes to jump to that project.</p>
+      <p id="projectNote">Click the boxes to go to that project.</p>
 
-    <!-- <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.4/jquery.min.js" type="text/javascript"></script>
-    <script src="jquery.localscroll.js" type="text/javascript"></script>
-    <script src="jquery.scrollTo.js" type="text/javascript"></script> -->
+
     <script type="text/javascript">
       function guavaJump() {
         window.location.href = "https://github.com/guavafanclub";
@@ -385,10 +306,8 @@
       }
 
       function appearCover() {
-        // document.getElementById("title").style.marginTop = "40%";  //small browser
-        // document.getElementById("Welcome").style.marginTop = "50%";
-        document.getElementById("title").style.marginTop = "12%"; //full browser
-        document.getElementById("Welcome").style.marginTop = "25%";
+        document.getElementById("title").style.marginTop = "250px";
+        document.getElementById("Welcome").style.marginTop = "320px";
         document.getElementById("line1").style.width = "50%";
         document.getElementById("line1").style.left = "25%";
         document.getElementById("title").style.opacity = 1;
@@ -402,12 +321,12 @@
           document.getElementById("line2").style.width = "20%";
           document.getElementById("line2").style.left = "40%";
           document.getElementById("line2").style.opacity = 1;
-          // document.getElementById("self_image").style.left = "15%";
-          // document.getElementById("self_image").style.opacity = "1";
+          document.getElementById("self_image").style.left = "15%";
+          document.getElementById("self_image").style.opacity = "1";
           // document.getElementById("info_line").style.transition = ".75s ease";
           // document.getElementById("info_line").style.transitionDelay = "1.5s";
           console.log(document.getElementById("info_title").style.opacity);
-          // document.getElementById("info_title").style.opacity = "1";
+          document.getElementById("info_title").style.opacity = "1";
           // document.getElementById("info_title").style.left = "40%";
           document.getElementById("info_line").style.width = "550px";
           document.getElementById("info_line").style.opacity = "1";
@@ -423,13 +342,12 @@
           stopOverlay = 2;
         }
         else {
-          // console.log(stopOverlay);
           document.getElementById("bubble1").style.color = "#009933";
           document.getElementById("bubble2").style.color = "gray";
           document.getElementById("educationPic1").style.opacity = "0.4";
-          document.getElementById("linet").style.width = "30%";
-          document.getElementById("linet").style.left = "35%";
-          document.getElementById("linet").style.opacity = "1";
+          document.getElementById("line_education").style.width = "30%";
+          document.getElementById("line_education").style.left = "35%";
+          document.getElementById("line_education").style.opacity = "1";
           document.getElementById("BC_tab").style.opacity = "1";
           document.getElementById("education_title1").style.left = "125px";
           document.getElementById("education_line1").style.width = "550px";
@@ -442,22 +360,21 @@
         document.getElementById("line3").style.width = "40%";
         document.getElementById("line3").style.left = "30%";
         document.getElementById("line3").style.opacity = 1;
-        // document.getElementById("project_images").style.left = "37.5%";
-        // document.getElementById("text_bubble").style.width = "600px";
-
       }
 
       function appearContact() {
         document.getElementById("line4").style.width = "20%";
         document.getElementById("line4").style.left = "40%";
         document.getElementById("line4").style.opacity = 1;
-
-        document.getElementById("linkedin").style.top = "45%";
+        document.getElementById("linkedin").style.top = "147px";
         document.getElementById("linkedin").style.opacity = 1;
-        document.getElementById("github").style.top = "45%";
+        document.getElementById("github").style.top = "147px";
         document.getElementById("github").style.opacity = 1;
-        document.getElementById("gmail").style.top = "45%";
+        document.getElementById("gmail").style.top = "147px";
         document.getElementById("gmail").style.opacity = 1;
+        document.getElementById("link_account").style.top = "200px";
+        document.getElementById("git_account").style.top = "200px";
+        document.getElementById("mail_account").style.top = "200px";
       }
 
       function getPosition(elementPosition) {
@@ -475,7 +392,7 @@
 
           elementPosition = elementPosition.offsetParent;
         }
-        console.log(yPos);
+        // console.log(yPos);
         // scroll(yPos);
         // return {
         //   y: yPos
@@ -494,11 +411,7 @@
         },0.0001);
         // }
       }
-      // window.addEventListener("scroll", function() {
 
-      // &(document).click(function() {
-      //   $('#sidebar').localScroll({duration:800});
-      // });
     </script>
 
       <div class="Project">
@@ -514,7 +427,7 @@
 
           function keepVisible() {
             document.getElementById("click_space").style.cursor = "pointer";
-            document.getElementById("click_space").style.left = "20%";
+            document.getElementById("click_space").style.left = "10%";
             document.getElementById("project_dropdown").style.width = "1000px";
             document.getElementById("opacity_title").innerHTML = "Magic Trivia";
             document.getElementById("opacity_text").innerHTML =
@@ -524,12 +437,13 @@
             "Javascript, and Python, and incorporated datastores to access the " +
             "trivia content from a query. <br> <br> Magic Trivia was a collaboration " +
             "between myself and my two team members: guavafanclub and " +
-            "dmartinez213. I provided the back-end programming, working to connect the " +
+            "dmartinez213 on GitHub. I provided the back-end programming, working to connect the " +
             "pages together, incorporate the timer, and store all the input data via " +
-            "sessions. Copy the links below to view our Github pages.";
+            "sessions. Click the buttons below to view their Github pages.";
 
             document.getElementById("project_images").style.opacity = "1";
-            document.getElementById("project_images").style.left = "20%";
+            document.getElementById("project_images").style.left = "10%";
+            document.getElementById("project_dropdown").style.left = "10%";
             document.getElementById("opacity_title").style.opacity = "1";
             document.getElementById("opacity_title").style.left = "55%";
             document.getElementById("opacity_line").style.opacity = "1";
@@ -542,7 +456,6 @@
             document.getElementById("git_tags").style.left = "60%";
             document.getElementById("git_tags").style.opacity = "1";
             document.getElementById("git_tags").style.transitionDelay = ".5s";
-            // document.getElementById("opacity_text").style.width = "440px";
           }
 
           function revertVisible() {
@@ -555,7 +468,7 @@
             document.getElementById("opacity_line").style.opacity = "0.01";
             document.getElementById("opacity_line").style.width = "0px";
             document.getElementById("opacity_line").style.transitionDelay = "0s";
-            document.getElementById("opacity_text").style.opacity = "0.01"; //0.01
+            document.getElementById("opacity_text").style.opacity = "0.01";
             document.getElementById("opacity_text").style.left = "48%";
             document.getElementById("opacity_text").style.transitionDelay = "0s";
             document.getElementById("git_tags").style.opacity = "0.01";
@@ -600,13 +513,11 @@
 
             <div id="git_tags" onmouseover="keepVisible()" onmouseout="revertVisible()">
               <div id="pointer" class="guava" class="active" onclick="guavaJump()" onmouseover="guavaHover()">
-                <a><img id="github1" src="../account_links/GitHub-Mark.png" alt="Github">
-                <!-- <a><img id="github1" src="account_links/GitHub-Mark-64px.png" alt="Github"> -->
+                <a><img id="github1" src="links/GitHub-Mark-32px.png" alt="Github">
                 <p id="guavaName">guavafanclub</p></a>
               </div>
               <div id="pointer" class="dmart" class="active" onclick="dmartJump()" onmouseover="dmartHover()">
-                <a><img id="github2" src="../account_links/GitHub-Mark.png" alt="Github">
-                <!-- <a><img id="github2" src="account_links/GitHub-Mark-64px.png" alt="Github"> -->
+                <a><img id="github2" src="links/GitHub-Mark-32px.png" alt="Github">
                 <p id="dmartName">dmartinez213</p></a>
               </div>
             </div>
@@ -620,17 +531,16 @@
       <p id="contactNote">Let's meet again.</p>
       <div class="links">
         <a href="https://www.linkedin.com/in/carter-bryant">
-          <img onmouseover="linkedinLink()" onmouseout="linkOff()" id="linkedin" src="/account_links/Linkedin-icon.png" alt="Linkedin">
+          <img onmouseover="linkedinLink()" onmouseout="linkOff()" id="linkedin" src="links/Linkedin-icon.png" alt="Linkedin">
         </a>
         <p id="link_account">View my Linkedin page.</p>
 
         <a href="https://github.com/DonnyLoa">
-          <img onmouseover="githubLink()" onmouseout="gitOff()" id="github" src="/account_links/GitHub-Mark.png" alt="Github">
-          <!-- <img onmouseover="githubLink()" onmouseout="gitOff()" id="github" src="account_links/GitHub-Mark-64px.png" alt="Github"></a> -->
+          <img onmouseover="githubLink()" onmouseout="gitOff()" id="github" src="../links/Github-icon.png" alt="Github">
         <p id="git_account">View my GitHub page.</p>
 
         <a href="https://www.gmail.com/">
-          <img onmouseover="gmailLink()" onmouseout="gmailOff()" id="gmail" src="../account_links/gmail-512.png" alt="Gmail">
+          <img onmouseover="gmailLink()" onmouseout="gmailOff()" id="gmail" src="../links/gmail-512.png" alt="Gmail">
         </a>
         <p id="mail_account">Email me at donny.lao64@gmail.com.</p>
       </div>
@@ -640,11 +550,8 @@
         <a id="babout" onmouseover="bAbout()" onclick="getPosition(Intro)">About</a>
         <a id="beducation" onmouseover="bEducation()" onclick="getPosition(Education)">Education</a>
         <a id="bprojects" onmouseover="bProjects()" onclick="getPosition(Project)">Projects</a>
-        <!-- <a id="bcontact" onmouseover="bContact()" onclick="getPosition(Contact)">Contact</a> -->
       </div>
-
     </div>
-
   </div>
   </body>
 </html>
