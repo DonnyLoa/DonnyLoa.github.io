@@ -115,7 +115,7 @@
 
         let sidebarCheck = 0;
         console.log(window.scrollY);
-        if (window.scrollY >= 0) {
+        if (window.scrollY >= 0 && window.scrollY <= 450) {
           document.getElementById("Homebar").style.backgroundColor = "black";
           document.getElementById("Aboutbar").style.backgroundColor = "";
           document.getElementById("Edubar").style.backgroundColor = "";

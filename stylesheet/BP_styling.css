@@ -808,7 +808,7 @@ p:hover:not(.active) {
   height: 64px;
   width: 64px;
   top: 160px;
-  left: 47%;
+  left: 48%;
   position: absolute;
   transition: .5s;
 }
@@ -828,7 +828,7 @@ p:hover:not(.active) {
   height: 64px;
   width: 64px;
   top: 160px;
-  left: 69%;
+  left: 71%;
   position: absolute;
   transition: .5s;
 }
