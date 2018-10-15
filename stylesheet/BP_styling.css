@@ -7,9 +7,9 @@ h2 {
   background-color: darkgreen;
 }
 
-.all {
+/* .all {
   max-width: 1600px;
-}
+} */
 
 #open_side {
   z-index: 2;
@@ -41,10 +41,8 @@ h2 {
   position: absolute;
   left: 0px;
   top: 0px;
-  height: 100%;
   width: 1500px;
   height: 650px;
-  width: 1348px;
   padding: 0px;
 }
 
@@ -52,13 +50,13 @@ h2 {
   z-index: 1;
   opacity: 0.5;
   height: 650px;
-  max-width: 1600px;
+  width: 1600px;
   margin: auto;
   /* width: 1348px; */
   margin-top: 0px;
   background-image: url(../images/mountain.jpg);
   background-repeat: no-repeat;
-  background-size: 1348px 650px;
+  background-size: 1600px 650px;
   background-attachment: fixed;
 }
 
