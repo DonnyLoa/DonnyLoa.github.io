@@ -50,13 +50,13 @@ h2 {
   z-index: 1;
   opacity: 0.5;
   height: 650px;
-  width: 1575px;
+  width: 1580px;
   margin: auto;
   /* width: 1348px; */
   margin-top: 0px;
   background-image: url(../images/mountain.jpg);
   background-repeat: no-repeat;
-  background-size: 1575px 650px;
+  background-size: 1580px 650px;
   background-attachment: fixed;
 }
 
