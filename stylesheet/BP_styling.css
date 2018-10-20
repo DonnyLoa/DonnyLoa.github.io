@@ -10,7 +10,7 @@ h2 {
 /* .all {
   max-width: 1600px;
 } */
-@media only screen and (max-width: 1366px) {
+@media only screen and (min-width: 1367px) and (max-width: 1600px) {
   #open_side {
     z-index: 2;
     font-size: 28px;
@@ -897,7 +897,7 @@ h2 {
   }
 }
 
-@media only screen and (max-width: 1366px) {
+@media only screen and (min-width: 0px) and (max-width: 1366px) {
   .Cover {
     width: 1366px;
   }
@@ -917,6 +917,7 @@ h2 {
 
   .topbar {
     width: 1352px;
+    background-color: red;
   }
 
   .Introduction {
@@ -975,7 +976,7 @@ h2 {
   }
 }
 
-@media only screen and (max-width: 1600px) {
+@media only screen and (min-width: 1601px) and (max-width: 1920px) {
   .Cover {
     width: 1600px;
   }
@@ -995,6 +996,7 @@ h2 {
 
   .topbar {
     width: 1584px;
+    background-color: blue;
   }
 
   .Introduction {
@@ -1043,7 +1045,6 @@ h2 {
     left: 68%;
   }
 
-
   .Contact {
     width: 1600px;
   }
@@ -1053,7 +1054,7 @@ h2 {
   }
 }
 
-/* @media only screen and (max-width: 980px) {
+/* @media only screen and (min-width: 0px) and (max-width: 980px) {
   .Cover {
     width: 980px;
   }
@@ -1131,7 +1132,7 @@ h2 {
   }
 } */
 
-@media only screen and (max-width: 1920px) {
+@media only screen and (min-width: 1921px) and (max-width: 9999px) {
   .Cover {
     width: 1920px;
   }
@@ -1151,6 +1152,7 @@ h2 {
 
   .topbar {
     width: 1920px;
+    background-color: purple;
   }
 
   .Introduction {
