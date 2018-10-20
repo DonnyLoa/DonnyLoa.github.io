@@ -250,13 +250,14 @@ h2 {
 
   #self_image {
     opacity: 1;
-    width: 405px;
+    width: 100%;
     height: auto;
     position: absolute;
     top: 10px;
     left: -50%;
     transform: scale(0.55);
     overflow: hidden;
+    display: block;
     z-index: 1;
     margin: auto;
     transition: .75s ease;
