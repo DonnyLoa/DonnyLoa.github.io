@@ -246,27 +246,45 @@ h2 {
     font-size: 20px;
   }
 
+  figure {
+    width:300px;
+    transform: scale(1.25);
+    border: 5px solid beige;
+    border-radius: 25%;
+    overflow: hidden;
+    margin:0;
+  }
 
+  figure img {
+    display:block;
+    width:100%;
+  }
 
-  #self_image {
+  #self_image img {
+    left: -15%;
+    margin: -30% -20% -60% 0%;
+
+  }
+
+  section{float:left; margin-top: 230px; margin-left:360px;}
+
+  /* #self_image {
     opacity: 1;
     width: 405px;
+    width: 50%;
+    overflow: hidden;
+    margin: -20% 0;
     height: auto;
     position: absolute;
     top: 10px;
     left: -50%;
-    transform: scale(0.55);
-    overflow: hidden;
-    display: block;
-    z-index: 1;
-    margin: auto;
+
+    z-index: 2;
+
     transition: .75s ease;
     transition-delay: .5s;
-    border: 5px solid beige;
-    border-radius: 50%;
-    color: #009933;
-    background-color: lightblue;
-  }
+
+  } */
 
   #info_title {
     opacity: 0;
