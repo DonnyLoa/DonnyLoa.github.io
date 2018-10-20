@@ -253,7 +253,7 @@ h2 {
     width: 405px;
     height: auto;
     position: absolute;
-    top: 0px;
+    top: 10px;
     left: -50%;
     transform: scale(0.55);
     overflow: hidden;
@@ -942,7 +942,7 @@ h2 {
   }
 
   .dmart {
-    left: 70%;
+    left: 68%;
   }
 
 
