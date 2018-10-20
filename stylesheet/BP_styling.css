@@ -877,7 +877,7 @@ h2 {
   }
 }
 
-@media only screen and (max-width: 1366px) {
+@media only screen and (max-width: 1360px) {
     .Cover {
         width: 1366px;
     }
@@ -940,6 +940,11 @@ h2 {
     .myProjects {
         width: 1366px;
     }
+
+    .dmart {
+        left: 74%;
+    }
+
 
     .Contact {
         width: 1366px;
