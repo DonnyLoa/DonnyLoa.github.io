@@ -10,868 +10,942 @@ h2 {
 /* .all {
   max-width: 1600px;
 } */
+@media only screen and (max-width: 1585px) {
+  #open_side {
+    z-index: 2;
+    font-size: 28px;
+    cursor: pointer;
+    position: fixed;
+    transition: .3s;
+    text-align: right;
+    margin-left: -60px;
+    height: 35px;
+    width: 100px;
+    top: 57%;
+    padding-right: 5px;
+    padding-bottom: 5px;
+    color: black;
+    background-color: white;
+    border: 1px;
+    border-radius: 21px;
+    border-width: medium;
+  }
 
-#open_side {
-  z-index: 2;
-  font-size: 28px;
-  cursor: pointer;
-  position: fixed;
-  transition: .3s;
-  text-align: right;
-  margin-left: -60px;
-  height: 35px;
-  width: 100px;
-  top: 57%;
-  padding-right: 5px;
-  padding-bottom: 5px;
-  color: black;
-  background-color: white;
-  border: 1px;
-  border-radius: 21px;
-  border-width: medium;
-}
-
-#open_side:hover {
-  color: darkgreen;
-  left: 5px;
-  transition: .3s;
-}
-
-.Cover {
-  position: absolute;
-  left: 0px;
-  top: 0px;
-  width: 1585px;
-  height: 650px;
-  padding: 0px;
-}
-
-#background {
-  z-index: 1;
-  opacity: 0.5;
-  height: 650px;
-  width: 1585px;
-  margin: auto;
-  /* width: 1585px; */
-  margin-top: 0px;
-  background-image: url(../images/mountain.jpg);
-  background-repeat: no-repeat;
-  background-size: 1585px 650px;
-  background-attachment: fixed;
-}
-
-#title {
-  z-index: 2;
-  font-size: 55px;
-  width: 1585px;
-  margin-top: 190px;
-  font-family: 'Oswald', sans-serif;
-  font-variant: normal;
-  position: absolute;
-  text-align: center;
-  color: black;
-  opacity: 0;
-  transition: 1s;
-}
-
-#line1 {
-  z-index: 2;
-  top: 310px;
-  left: 50%;
-  width: 0%;
-  border: 2px solid white;
-  position: absolute;
-  text-align: center;
-  transition: 1s;
-  transition-delay: 1s;
-}
-
-#Welcome {
-  z-index: 2;
-  font-size: 40px;
-  font-family: 'Oswald', sans-serif;
-  position: absolute;
-  color: black;
-  text-align: center;
-  width: 1585px;
-  margin-top: 270px;
-  opacity: 0;
-  transition: 1s;
-  transition-delay: .5s;
-}
-
-.topbar {
-  height: 50px;
-  top: -20px;
-  width: 1570px;
-  display: inline-block;
-  position: absolute;
-  list-style-type: none;
-  margin: 0px;
-  text-align: center;
-  overflow: hidden;
-  border-radius: 15px;
-  transition: .3s ease;
-  background-color: lightgreen;
-}
-
-.topbar a {
-  font-family: "Merriweather", sans-serif;
-  padding-top: 20px;
-  font-size: 20px;
-  cursor: pointer;
-  display: inline-block;
-  color: white;
-  width: 150px;
-  text-decoration: none;
-}
-
-.sidebar {
-  z-index: 3;
-  height: 330px;
-  width: 160px;
-  top: 25%;
-  left: 10px;
-  position: fixed;
-  margin: auto;
-  margin-left: 15px;
-  overflow: hidden;
-  border-radius: 15px;
-  background-color: lightgreen;
-  transition: .3s;
-  animation-duration: .5s ease;
-}
-
-.sidebar a {
-  font-family: "Quicksand", sans-serif;
-  font-size: 20px;
-  display: inline-block;
-  color: white;
-  width: 100px;
-  text-align: left;
-  left: 5px;
-  margin-left: 10px;
-  padding: 14px 16px;
-  text-decoration: none;
-}
-
-#sidebar {
-  position: fixed;
-  animation-duration: .3s ease;
-}
-
-.sidebar .exit_side {
-  font-size: 36px;
-  cursor: pointer;
-  padding: 10px 16px;
-  padding-bottom: -10px;
-  display: block;
-  background-color: black;
-  transition: .3s;
-}
-
-#Homebar {
-  transition: .3s;
-}
-
-#Aboutbar {
-  transition: .3s;
-}
-
-#Edubar {
-  transition: .3s;
-}
-
-#Projectsbar {
-  transition: .3s;
-}
-
-.topbar a.active {
-  color: black;
-}
-
-.topbar a:hover.active {
-  color: black;
-}
-
-.topbar a:hover:not(.active) {
-  color: #009933;
-}
-
-.sidebar a.active {
-  color: black;
-}
-
-.sidebar a:hover:not(.active) {
+  #open_side:hover {
     color: darkgreen;
-}
-
-.Introduction {
-  position: absolute;
-  left: 0px;
-  top: 650px;
-  width: 1585px;
-  height: 548px;
-  background-color: lightblue;
-}
-
-#Intro {
-  color: black;
-  font-size: 40px;
-  width: 1585px;
-  position: absolute;
-  text-align: center;
-  font-family: 'Oswald', sans-serif;
-}
-
-#line2 {
-  z-index: 2;
-  top: 75px;
-  left: 50%;
-  width: 0%;
-  border: 1px solid black;
-  position: absolute;
-  text-align: center;
-  transition: .5s;
-  opacity: 0;
-}
-
-#introNote {
-  top: 80px;
-  width: 1585px;
-  padding-bottom: 20px;
-  position: absolute;
-  text-align: center;
-  font-family: 'Quicksand', sans-serif;
-  font-size: 20px;
-}
-
-
-
-#self_image {
-  opacity: 1;
-  width: 405px;
-  height: auto;
-  position: absolute;
-  top: 200px;
-  left: -50%;
-  /* transform: scale(0.25); */
-  overflow: hidden;
-  z-index: 1;
-  margin: auto;
-  transition: .75s ease;
-  transition-delay: .5s;
-  border: 5px solid beige;
-  border-radius: 50%;
-  color: #009933;
-  background-color: lightblue;
-}
-
-#info_title {
-  opacity: 0;
-  color: #009933;
-  font-size: 18px;
-  font-family: 'Quicksand', sans-serif;
-  text-align: left;
-  position: absolute;
-  padding-top: 0px;
-  padding-bottom: 0px;
-  padding-left: 10px;
-  padding-right: 0px;
-  top: 135px;
-  left: 780px;
-  height: 25px;
-  width: 200px;
-  transition: .3s;
-  transition-delay: 1.25s;
-}
-
-#info_line {
-  color: black;
-  border: 3px solid white;
-  border-radius: 60%;
-  text-align: left;
-  position: absolute;
-  top: 160px;
-  left: 780px;
-  width: 0px;
-  opacity: 0;
-  transition: .3s;
-  transition-delay: 1.5s;
-}
-
-#info {
-  opacity: 0;
-  line-height: 175%;
-  height: 320px;
-  width: 570px;
-  top: 170px;
-  left: 780px;
-  font-family: 'Roboto Condensed', sans-serif;
-  text-align: left;
-  position: absolute;
-  padding-top: 0px;
-  padding-bottom: 0px;
-  padding-right: 0px;
-  transition: .3s;
-  transition-delay: 1.5s;
-}
-
-.Education {
-  position: absolute;
-  left: 0px;
-  top: 1195px;
-  width: 1585px;
-  height: 530px;
-}
-
-#Education {
-  z-index: 2;
-  color: black;
-  font-size: 40px;
-  position: absolute;
-  text-align: center;
-  width: 1585px;
-  font-family: 'Oswald', sans-serif;
-}
-
-#line_education {
-  z-index: 2;
-  top: 75px;
-  left: 50%;
-  width: 0%;
-  border: 1px solid black;
-  position: absolute;
-  text-align: center;
-  transition: .5s;
-  opacity: 0;
-}
-
-#educationNote {
-  z-index: 2;
-  top: 80px;
-  width: 1585px;
-  position: absolute;
-  text-align: center;
-  font-family: 'Quicksand', sans-serif;
-  font-size: 20px;
-}
-
-#educationPic1 {
-  z-index: 1;
-  opacity: 0;
-  top: -2.5%;
-  height: 590px;
-  width: 1585px;
-  position: absolute;
-  background-image: url(../images/BCHSPainting.jpg);
-  background-repeat: repeat;
-  background-size: 1585px 650px;
-  background-attachment: fixed;
-  transition: .5s ease;
-}
-
-#educationPic2 {
-  z-index: 1;
-  opacity: 0;
-  top: -2.5%;
-  height: 590px;
-  width: 1585px;
-  position: absolute;
-  background-image: url(../images/google-kirkland-office-front.jpg);
-  background-repeat: repeat;
-  background-size: 1585px 650px;
-  background-attachment: fixed;
-  transition: .5s ease;
-}
-
-#BC_tab {
-  opacity: 0;
-  top: -25%;
-  left: 0px;
-  position: absolute;
-  transition-delay: 1s;
-  transition: .5s;
-}
-
-#CSSI_tab {
-  opacity: 0;
-  top: -25%;
-  left: 0px;
-  position: absolute;
-  transition: .5s;
-}
-
-#education_title1 {
-  z-index: 2;
-  color: darkgreen;
-  font-size: 18px;
-  font-family: 'Quicksand', sans-serif;
-  text-align: left;
-  position: absolute;
-  top: 300px;
-  left: 400px;
-  height: 25px;
-  width: 400px;
-  transition: .5s;
-}
-
-#education_line1 {
-  z-index: 2;
-  color: black;
-  border: 3px solid black;
-  border-radius: 60%;
-  position: absolute;
-  margin-left: 120px;
-  top: 324px;
-  left: 400px;
-  transition: .5s;
-}
-
-#edu_info1 {
-  z-index: 2;
-  line-height: 175%;
-  height: 90px;
-  width: 550px;
-  top: 334px;
-  left: 400px;
-  color: #1a1a1a;
-  font-family: 'Roboto Condensed', sans-serif;
-  text-align: left;
-  position: absolute;
-  transition: .5s;
-}
-
-#education_title2 {
-  z-index: 2;
-  color: darkgreen;
-  font-size: 18px;
-  font-family: 'Quicksand', sans-serif;
-  text-align: left;
-  position: absolute;
-  top: 300px;
-  left: 400px;
-  height: 25px;
-  width: 400px;
-  transition: .5s;
-}
-
-#education_line2 {
-  z-index: 2;
-  color: black;
-  border: 3px solid black;
-  border-radius: 60%;
-  position: absolute;
-  margin-left: 120px;
-  top: 324px;
-  left: 400px;
-  transition: .5s;
-}
-
-#edu_info2 {
-  z-index: 2;
-  line-height: 175%;
-  height: 90px;
-  width: 550px;
-  top: 334px;
-  left: 400px;
-  color: #1a1a1a;
-  font-family: 'Roboto Condensed', sans-serif;
-  text-align: left;
-  position: absolute;
-  transition: .5s;
-}
-
-#education_tabs {
-  z-index: 2;
-  height: 25px;
-  width: 1585px;
-  bottom: 5px;
-  display: inline-block;
-  position: absolute;
-  list-style-type: none;
-  margin: 0px;
-  text-align: center;
-  padding: 0px;
-  overflow: hidden;
-  border-radius: 15px;
-  transition: .5s ease;
-}
-
-#education_tabs a {
-  z-index: 2;
-  font-family: "Merriweather", sans-serif;
-  cursor: pointer;
-  display: inline-block;
-  width: 20px;
-  bottom: 5px;
-  text-decoration: none;
-}
-
-#left_arrow {
-  font-size: 20px;
-  color: black;
-}
-
-#bubble1 {
-  font-size: 22px;
-  color: gray;
-}
-
-#bubble2 {
-  font-size: 22px;
-  color: gray;
-}
-
-#right_arrow {
-  font-size: 20px;
-  color: black;
-}
-
-p:hover.active {
-  padding-top: -105px;
-  font-size: 16px;
-  transition: .5s ease;
-
-}
-
-p:hover:not(.active) {
-  padding-top: -105px;
-  font-size: 16px;
-  transition: .5s ease;
-
-}
-
-.myProjects {
-  font-family: 'Oswald', sans-serif;
-  background-color: lightblue;
-  position: absolute;
-  top: 1787px;
-  height: 650px;
-  width: 1585px;
-  left: 0px;
-}
-
-#Project {
-  font-size: 40px;
-  transition: .5s ease;
-}
-
-#line3 {
-  opacity: 0;
-  z-index: 2;
-  top: 75px;
-  left: 50%;
-  width: 0%;
-  border: 1px solid black;
-  position: absolute;
-  text-align: center;
-  transition: .5s;
-}
-
-#projectNote {
-  top: 0px;
-  left: 50%;
-  text-align: center;
-  font-family: 'Quicksand', sans-serif;
-  font-size: 20px;
-}
-
-#project_images {
-  cursor: pointer;
-  height: 200px;
-  width: 450px;
-  position: absolute;
-  opacity: 0.5;
-  top: 35%;
-  left: 35%;
-  transition: .5s ease;
-  border: 5px solid white;
-  border-radius: 10px;
-  background-color: lightblue;
-}
-
-#click_space {
-  cursor: pointer;
-  position: absolute;
-  padding-top: 100px;
-  border: 5px;
-  border-radius: 10px;
-  height: 100px;
-  top: 36%;
-  left: 33%;
-  width: 450px;
-  margin: auto;
-  opacity: 1;
-  transition: .5s ease;
-}
-
-#project_dropdown {
-  color: white;
-  position: absolute;
-  font-family: serif;
-  text-align: center;
-  padding-top: 100px;
-  border-radius: 10px;
-  height: 255px;
-  top: 36%;
-  left: 20%;
-  width: 450px;
-  margin: auto;
-  opacity: 1;
-  transition: .5s ease;
-}
-
-#opacity_title {
-  color: #009933;
-  font-size: 18px;
-  font-family: 'Quicksand', sans-serif;
-  text-align: left;
-  position: absolute;
-  top: 30%;
-  left: 48%;
-  height: 25px;
-  width: 100px;
-  opacity: 0.01;
-  transition: .3s;
-}
-
-#opacity_line {
-  color: white;
-  border: 3px solid white;
-  border-radius: 60%;
-  position: absolute;
-  top: 34%;
-  left: 55%;
-  width: 0px;
-  opacity: 0;
-  transition: .3s;
-}
-
-#opacity_text {
-  color: black;
-  font-family: 'Roboto Condensed', sans-serif;
-  text-align: left;
-  position: absolute;
-  top: 35%;
-  left: 48%;
-  line-height: 175%;
-  height: 205px;
-  width: 440px;
-  opacity: 0.01;
-  transition: .3s;
-  transition-delay: .3s;
-}
-
-#git_tags {
-  margin-top: 20%;
-  left: 40%;
-  opacity: 0;
-  transition: .3s;
-}
-
-#pointer {
-  cursor: pointer;
-}
-
-.guava a:hover.active {
-  color: black;
-}
-
-.guava a:hover:not(.active) {
-  color: #009933;
-}
-
-.guava {
-  bottom: 125px;
-  top: 85%;
-  left: 60%;
-  height: 32px;
-  width: 150px;
-  position: absolute;
-  border-radius: 50px;
-  background-color: beige;
-}
-
-#github1 {
-  left: 5%;
-  height: 24px;
-  width: 24px;
-  margin: 3px;
-  position: absolute;
-  transition: .3s;
-}
-
-#guavaName {
-  top: -15px;
-  left: 50px;
-  position: absolute;
-  transition: .3s;
-}
-
-.dmart a:hover.active {
-  color: black;
-}
-
-.dmart a:hover:not(.active) {
-  color: #009933;
-}
-
-.dmart {
-  top: 85%;
-  bottom: 125px;
-  left: 70%;
-  height: 32px;
-  width: 150px;
-  position: absolute;
-  border-radius: 50px;
-  background-color: beige;
-}
-
-#github2 {
-  left: 5%;
-  height: 24px;
-  width: 24px;
-  margin: 3px;
-  position: absolute;
-  transition: .3s;
-}
-
-#dmartName {
-  top: -15px;
-  left: 50px;
-  position: absolute;
-  transition: .3s;
-}
-
-.Contact {
-  z-index: 3;
-  font-family: 'Oswald', sans-serif;
-  position: absolute;
-  top: 2425px;
-  left: 0px;
-  height: 325px;
-  width: 1585px;
-  color: white;
-  background-color: #26262a;
-}
-
-#Contact {
-  font-size: 40px;
-  transition: .5s ease;
-}
-
-#line4 {
-  z-index: 3;
-  top: 75px;
-  left: 50%;
-  width: 0%;
-  height: 0px;
-  border: 1px solid white;
-  position: absolute;
-  text-align: center;
-  transition: .5s;
-  opacity: 1;
-}
-
-#contactNote {
-  top: 85px;
-  left: 45%;
-  padding-bottom: 20px;
-  position: absolute;
-  text-align: center;
-  font-family: 'Quicksand', sans-serif;
-  font-size: 20px;
-}
-
-#linkedin {
-  opacity: 0;
-  height: 66px;
-  width: 66px;
-  top: 160px;
-  left: 25%;
-  position: absolute;
-  transition: .5s;
-}
-
-#link_account {
-  position: absolute;
-  height: 20px;
-  top: 210px;
-  left: 23%;
-  opacity: 0;
-  transition: .3s;
-}
-
-#github {
-  opacity: 0;
-  height: 64px;
-  width: 64px;
-  top: 160px;
-  left: 48%;
-  position: absolute;
-  transition: .5s;
-}
-
-#git_account {
-  color: white;
-  position: absolute;
-  height: 20px;
-  top: 210px;
-  left: 46%;
-  opacity: 0;
-  transition: .3s;
-}
-
-#gmail {
-  opacity: 0;
-  height: 64px;
-  width: 64px;
-  top: 160px;
-  left: 71%;
-  position: absolute;
-  transition: .5s;
-}
-
-#mail_account {
-  position: absolute;
-  height: 20px;
-  top: 210px;
-  left: 67%;
-  opacity: 0;
-  transition: .3s;
-}
-
-.bottombar {
-  height: 25px;
-  width: 1585px;
-  bottom: 45px;
-  display: inline-block;
-  position: absolute;
-  list-style-type: none;
-  margin: 0px;
-  text-align: center;
-  padding: 0px;
-  overflow: hidden;
-  border-radius: 15px;
-  transition: .3s ease;
-}
-
-.bottombar a {
-  font-family: "Merriweather", sans-serif;
-  font-size: 20px;
-  cursor: pointer;
-  display: inline-block;
-  color: white;
-  width: 150px;
-  bottom: 45px;
-  text-decoration: none;
-}
-
-.bottombar a:hover.active {
-  color: white;
-}
-
-.bottombar a:hover:not(.active) {
-  color: gray;
+    left: 5px;
+    transition: .3s;
+  }
+
+  .Cover {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    width: 1585px;
+    height: 650px;
+    padding: 0px;
+  }
+
+  #background {
+    z-index: 1;
+    opacity: 0.5;
+    height: 650px;
+    width: 1585px;
+    margin: auto;
+    /* width: 1585px; */
+    margin-top: 0px;
+    background-image: url(../images/mountain.jpg);
+    background-repeat: no-repeat;
+    background-size: 1585px 650px;
+    background-attachment: fixed;
+  }
+
+  #title {
+    z-index: 2;
+    font-size: 55px;
+    width: 1585px;
+    margin-top: 190px;
+    font-family: 'Oswald', sans-serif;
+    font-variant: normal;
+    position: absolute;
+    text-align: center;
+    color: black;
+    opacity: 0;
+    transition: 1s;
+  }
+
+  #line1 {
+    z-index: 2;
+    top: 310px;
+    left: 50%;
+    width: 0%;
+    border: 2px solid white;
+    position: absolute;
+    text-align: center;
+    transition: 1s;
+    transition-delay: 1s;
+  }
+
+  #Welcome {
+    z-index: 2;
+    font-size: 40px;
+    font-family: 'Oswald', sans-serif;
+    position: absolute;
+    color: black;
+    text-align: center;
+    width: 1585px;
+    margin-top: 270px;
+    opacity: 0;
+    transition: 1s;
+    transition-delay: .5s;
+  }
+
+  .topbar {
+    height: 50px;
+    top: -20px;
+    width: 1570px;
+    display: inline-block;
+    position: absolute;
+    list-style-type: none;
+    margin: 0px;
+    text-align: center;
+    overflow: hidden;
+    border-radius: 15px;
+    transition: .3s ease;
+    background-color: lightgreen;
+  }
+
+  .topbar a {
+    font-family: "Merriweather", sans-serif;
+    padding-top: 20px;
+    font-size: 20px;
+    cursor: pointer;
+    display: inline-block;
+    color: white;
+    width: 150px;
+    text-decoration: none;
+  }
+
+  .sidebar {
+    z-index: 3;
+    height: 330px;
+    width: 160px;
+    top: 25%;
+    left: 10px;
+    position: fixed;
+    margin: auto;
+    margin-left: 15px;
+    overflow: hidden;
+    border-radius: 15px;
+    background-color: lightgreen;
+    transition: .3s;
+    animation-duration: .5s ease;
+  }
+
+  .sidebar a {
+    font-family: "Quicksand", sans-serif;
+    font-size: 20px;
+    display: inline-block;
+    color: white;
+    width: 100px;
+    text-align: left;
+    left: 5px;
+    margin-left: 10px;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+
+  #sidebar {
+    position: fixed;
+    animation-duration: .3s ease;
+  }
+
+  .sidebar .exit_side {
+    font-size: 36px;
+    cursor: pointer;
+    padding: 10px 16px;
+    padding-bottom: -10px;
+    display: block;
+    background-color: black;
+    transition: .3s;
+  }
+
+  #Homebar {
+    transition: .3s;
+  }
+
+  #Aboutbar {
+    transition: .3s;
+  }
+
+  #Edubar {
+    transition: .3s;
+  }
+
+  #Projectsbar {
+    transition: .3s;
+  }
+
+  .topbar a.active {
+    color: black;
+  }
+
+  .topbar a:hover.active {
+    color: black;
+  }
+
+  .topbar a:hover:not(.active) {
+    color: #009933;
+  }
+
+  .sidebar a.active {
+    color: black;
+  }
+
+  .sidebar a:hover:not(.active) {
+      color: darkgreen;
+  }
+
+  .Introduction {
+    position: absolute;
+    left: 0px;
+    top: 650px;
+    width: 1585px;
+    height: 548px;
+    background-color: lightblue;
+  }
+
+  #Intro {
+    color: black;
+    font-size: 40px;
+    width: 1585px;
+    position: absolute;
+    text-align: center;
+    font-family: 'Oswald', sans-serif;
+  }
+
+  #line2 {
+    z-index: 2;
+    top: 75px;
+    left: 50%;
+    width: 0%;
+    border: 1px solid black;
+    position: absolute;
+    text-align: center;
+    transition: .5s;
+    opacity: 0;
+  }
+
+  #introNote {
+    top: 80px;
+    width: 1585px;
+    padding-bottom: 20px;
+    position: absolute;
+    text-align: center;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 20px;
+  }
+
+
+
+  #self_image {
+    opacity: 1;
+    width: 405px;
+    height: auto;
+    position: absolute;
+    top: 200px;
+    left: -50%;
+    /* transform: scale(0.25); */
+    overflow: hidden;
+    z-index: 1;
+    margin: auto;
+    transition: .75s ease;
+    transition-delay: .5s;
+    border: 5px solid beige;
+    border-radius: 50%;
+    color: #009933;
+    background-color: lightblue;
+  }
+
+  #info_title {
+    opacity: 0;
+    color: #009933;
+    font-size: 18px;
+    font-family: 'Quicksand', sans-serif;
+    text-align: left;
+    position: absolute;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    padding-left: 10px;
+    padding-right: 0px;
+    top: 135px;
+    left: 780px;
+    height: 25px;
+    width: 200px;
+    transition: .3s;
+    transition-delay: 1.25s;
+  }
+
+  #info_line {
+    color: black;
+    border: 3px solid white;
+    border-radius: 60%;
+    text-align: left;
+    position: absolute;
+    top: 160px;
+    left: 780px;
+    width: 0px;
+    opacity: 0;
+    transition: .3s;
+    transition-delay: 1.5s;
+  }
+
+  #info {
+    opacity: 0;
+    line-height: 175%;
+    height: 320px;
+    width: 570px;
+    top: 170px;
+    left: 780px;
+    font-family: 'Roboto Condensed', sans-serif;
+    text-align: left;
+    position: absolute;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    padding-right: 0px;
+    transition: .3s;
+    transition-delay: 1.5s;
+  }
+
+  .Education {
+    position: absolute;
+    left: 0px;
+    top: 1195px;
+    width: 1585px;
+    height: 530px;
+  }
+
+  #Education {
+    z-index: 2;
+    color: black;
+    font-size: 40px;
+    position: absolute;
+    text-align: center;
+    width: 1585px;
+    font-family: 'Oswald', sans-serif;
+  }
+
+  #line_education {
+    z-index: 2;
+    top: 75px;
+    left: 50%;
+    width: 0%;
+    border: 1px solid black;
+    position: absolute;
+    text-align: center;
+    transition: .5s;
+    opacity: 0;
+  }
+
+  #educationNote {
+    z-index: 2;
+    top: 80px;
+    width: 1585px;
+    position: absolute;
+    text-align: center;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 20px;
+  }
+
+  #educationPic1 {
+    z-index: 1;
+    opacity: 0;
+    top: -2.5%;
+    height: 590px;
+    width: 1585px;
+    position: absolute;
+    background-image: url(../images/BCHSPainting.jpg);
+    background-repeat: repeat;
+    background-size: 1585px 650px;
+    background-attachment: fixed;
+    transition: .5s ease;
+  }
+
+  #educationPic2 {
+    z-index: 1;
+    opacity: 0;
+    top: -2.5%;
+    height: 590px;
+    width: 1585px;
+    position: absolute;
+    background-image: url(../images/google-kirkland-office-front.jpg);
+    background-repeat: repeat;
+    background-size: 1585px 650px;
+    background-attachment: fixed;
+    transition: .5s ease;
+  }
+
+  #BC_tab {
+    opacity: 0;
+    top: -25%;
+    left: 0px;
+    position: absolute;
+    transition-delay: 1s;
+    transition: .5s;
+  }
+
+  #CSSI_tab {
+    opacity: 0;
+    top: -25%;
+    left: 0px;
+    position: absolute;
+    transition: .5s;
+  }
+
+  #education_title1 {
+    z-index: 2;
+    color: darkgreen;
+    font-size: 18px;
+    font-family: 'Quicksand', sans-serif;
+    text-align: left;
+    position: absolute;
+    top: 300px;
+    left: 400px;
+    height: 25px;
+    width: 400px;
+    transition: .5s;
+  }
+
+  #education_line1 {
+    z-index: 2;
+    color: black;
+    border: 3px solid black;
+    border-radius: 60%;
+    position: absolute;
+    margin-left: 120px;
+    top: 324px;
+    left: 400px;
+    transition: .5s;
+  }
+
+  #edu_info1 {
+    z-index: 2;
+    line-height: 175%;
+    height: 90px;
+    width: 550px;
+    top: 334px;
+    left: 400px;
+    color: #1a1a1a;
+    font-family: 'Roboto Condensed', sans-serif;
+    text-align: left;
+    position: absolute;
+    transition: .5s;
+  }
+
+  #education_title2 {
+    z-index: 2;
+    color: darkgreen;
+    font-size: 18px;
+    font-family: 'Quicksand', sans-serif;
+    text-align: left;
+    position: absolute;
+    top: 300px;
+    left: 400px;
+    height: 25px;
+    width: 400px;
+    transition: .5s;
+  }
+
+  #education_line2 {
+    z-index: 2;
+    color: black;
+    border: 3px solid black;
+    border-radius: 60%;
+    position: absolute;
+    margin-left: 120px;
+    top: 324px;
+    left: 400px;
+    transition: .5s;
+  }
+
+  #edu_info2 {
+    z-index: 2;
+    line-height: 175%;
+    height: 90px;
+    width: 550px;
+    top: 334px;
+    left: 400px;
+    color: #1a1a1a;
+    font-family: 'Roboto Condensed', sans-serif;
+    text-align: left;
+    position: absolute;
+    transition: .5s;
+  }
+
+  #education_tabs {
+    z-index: 2;
+    height: 25px;
+    width: 1585px;
+    bottom: 5px;
+    display: inline-block;
+    position: absolute;
+    list-style-type: none;
+    margin: 0px;
+    text-align: center;
+    padding: 0px;
+    overflow: hidden;
+    border-radius: 15px;
+    transition: .5s ease;
+  }
+
+  #education_tabs a {
+    z-index: 2;
+    font-family: "Merriweather", sans-serif;
+    cursor: pointer;
+    display: inline-block;
+    width: 20px;
+    bottom: 5px;
+    text-decoration: none;
+  }
+
+  #left_arrow {
+    font-size: 20px;
+    color: black;
+  }
+
+  #bubble1 {
+    font-size: 22px;
+    color: gray;
+  }
+
+  #bubble2 {
+    font-size: 22px;
+    color: gray;
+  }
+
+  #right_arrow {
+    font-size: 20px;
+    color: black;
+  }
+
+  p:hover.active {
+    padding-top: -105px;
+    font-size: 16px;
+    transition: .5s ease;
+
+  }
+
+  p:hover:not(.active) {
+    padding-top: -105px;
+    font-size: 16px;
+    transition: .5s ease;
+
+  }
+
+  .myProjects {
+    font-family: 'Oswald', sans-serif;
+    background-color: lightblue;
+    position: absolute;
+    top: 1787px;
+    height: 650px;
+    width: 1585px;
+    left: 0px;
+  }
+
+  #Project {
+    font-size: 40px;
+    transition: .5s ease;
+  }
+
+  #line3 {
+    opacity: 0;
+    z-index: 2;
+    top: 75px;
+    left: 50%;
+    width: 0%;
+    border: 1px solid black;
+    position: absolute;
+    text-align: center;
+    transition: .5s;
+  }
+
+  #projectNote {
+    top: 0px;
+    left: 50%;
+    text-align: center;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 20px;
+  }
+
+  #project_images {
+    cursor: pointer;
+    height: 200px;
+    width: 450px;
+    position: absolute;
+    opacity: 0.5;
+    top: 35%;
+    left: 35%;
+    transition: .5s ease;
+    border: 5px solid white;
+    border-radius: 10px;
+    background-color: lightblue;
+  }
+
+  #click_space {
+    cursor: pointer;
+    position: absolute;
+    padding-top: 100px;
+    border: 5px;
+    border-radius: 10px;
+    height: 100px;
+    top: 36%;
+    left: 33%;
+    width: 450px;
+    margin: auto;
+    opacity: 1;
+    transition: .5s ease;
+  }
+
+  #project_dropdown {
+    color: white;
+    position: absolute;
+    font-family: serif;
+    text-align: center;
+    padding-top: 100px;
+    border-radius: 10px;
+    height: 255px;
+    top: 36%;
+    left: 20%;
+    width: 450px;
+    margin: auto;
+    opacity: 1;
+    transition: .5s ease;
+  }
+
+  #opacity_title {
+    color: #009933;
+    font-size: 18px;
+    font-family: 'Quicksand', sans-serif;
+    text-align: left;
+    position: absolute;
+    top: 30%;
+    left: 48%;
+    height: 25px;
+    width: 100px;
+    opacity: 0.01;
+    transition: .3s;
+  }
+
+  #opacity_line {
+    color: white;
+    border: 3px solid white;
+    border-radius: 60%;
+    position: absolute;
+    top: 34%;
+    left: 55%;
+    width: 0px;
+    opacity: 0;
+    transition: .3s;
+  }
+
+  #opacity_text {
+    color: black;
+    font-family: 'Roboto Condensed', sans-serif;
+    text-align: left;
+    position: absolute;
+    top: 35%;
+    left: 48%;
+    line-height: 175%;
+    height: 205px;
+    width: 440px;
+    opacity: 0.01;
+    transition: .3s;
+    transition-delay: .3s;
+  }
+
+  #git_tags {
+    margin-top: 20%;
+    left: 40%;
+    opacity: 0;
+    transition: .3s;
+  }
+
+  #pointer {
+    cursor: pointer;
+  }
+
+  .guava a:hover.active {
+    color: black;
+  }
+
+  .guava a:hover:not(.active) {
+    color: #009933;
+  }
+
+  .guava {
+    bottom: 125px;
+    top: 85%;
+    left: 60%;
+    height: 32px;
+    width: 150px;
+    position: absolute;
+    border-radius: 50px;
+    background-color: beige;
+  }
+
+  #github1 {
+    left: 5%;
+    height: 24px;
+    width: 24px;
+    margin: 3px;
+    position: absolute;
+    transition: .3s;
+  }
+
+  #guavaName {
+    top: -15px;
+    left: 50px;
+    position: absolute;
+    transition: .3s;
+  }
+
+  .dmart a:hover.active {
+    color: black;
+  }
+
+  .dmart a:hover:not(.active) {
+    color: #009933;
+  }
+
+  .dmart {
+    top: 85%;
+    bottom: 125px;
+    left: 70%;
+    height: 32px;
+    width: 150px;
+    position: absolute;
+    border-radius: 50px;
+    background-color: beige;
+  }
+
+  #github2 {
+    left: 5%;
+    height: 24px;
+    width: 24px;
+    margin: 3px;
+    position: absolute;
+    transition: .3s;
+  }
+
+  #dmartName {
+    top: -15px;
+    left: 50px;
+    position: absolute;
+    transition: .3s;
+  }
+
+  .Contact {
+    z-index: 3;
+    font-family: 'Oswald', sans-serif;
+    position: absolute;
+    top: 2425px;
+    left: 0px;
+    height: 325px;
+    width: 1585px;
+    color: white;
+    background-color: #26262a;
+  }
+
+  #Contact {
+    font-size: 40px;
+    transition: .5s ease;
+  }
+
+  #line4 {
+    z-index: 3;
+    top: 75px;
+    left: 50%;
+    width: 0%;
+    height: 0px;
+    border: 1px solid white;
+    position: absolute;
+    text-align: center;
+    transition: .5s;
+    opacity: 1;
+  }
+
+  #contactNote {
+    top: 85px;
+    left: 45%;
+    padding-bottom: 20px;
+    position: absolute;
+    text-align: center;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 20px;
+  }
+
+  #linkedin {
+    opacity: 0;
+    height: 66px;
+    width: 66px;
+    top: 160px;
+    left: 25%;
+    position: absolute;
+    transition: .5s;
+  }
+
+  #link_account {
+    position: absolute;
+    height: 20px;
+    top: 210px;
+    left: 23%;
+    opacity: 0;
+    transition: .3s;
+  }
+
+  #github {
+    opacity: 0;
+    height: 64px;
+    width: 64px;
+    top: 160px;
+    left: 48%;
+    position: absolute;
+    transition: .5s;
+  }
+
+  #git_account {
+    color: white;
+    position: absolute;
+    height: 20px;
+    top: 210px;
+    left: 46%;
+    opacity: 0;
+    transition: .3s;
+  }
+
+  #gmail {
+    opacity: 0;
+    height: 64px;
+    width: 64px;
+    top: 160px;
+    left: 71%;
+    position: absolute;
+    transition: .5s;
+  }
+
+  #mail_account {
+    position: absolute;
+    height: 20px;
+    top: 210px;
+    left: 67%;
+    opacity: 0;
+    transition: .3s;
+  }
+
+  .bottombar {
+    height: 25px;
+    width: 1585px;
+    bottom: 45px;
+    display: inline-block;
+    position: absolute;
+    list-style-type: none;
+    margin: 0px;
+    text-align: center;
+    padding: 0px;
+    overflow: hidden;
+    border-radius: 15px;
+    transition: .3s ease;
+  }
+
+  .bottombar a {
+    font-family: "Merriweather", sans-serif;
+    font-size: 20px;
+    cursor: pointer;
+    display: inline-block;
+    color: white;
+    width: 150px;
+    bottom: 45px;
+    text-decoration: none;
+  }
+
+  .bottombar a:hover.active {
+    color: white;
+  }
+
+  .bottombar a:hover:not(.active) {
+    color: gray;
+  }
+}
+
+@media only screen and (max-width: 1353px) {
+    .Cover {
+        width: 1353px;
+    }
+
+    #background {
+        width: 1353px;
+        background-size: 1353px 650px;
+    }
+
+    #title {
+        width: 1353px;
+    }
+
+    #Welcome {
+        width: 1353px;
+    }
+
+    .topbar {
+        width: 1340px;
+    }
+
+    .Introduction {
+        width: 1353px;
+    }
+
+    #Intro {
+        width: 1353px;
+    }
+
+    #introNote {
+        width: 1353px;
+    }
+
+    .Education {
+        width: 1353px;
+    }
+
+    #Education {
+        width: 1353px;
+    }
+
+    #educationNote {
+        width: 1353px;
+    }
+
+    #educationPic1 {
+        width: 1353px;
+        background-size: 1353px 650px;
+    }
+
+    #educationPic2 {
+        width: 1353px;
+        background-size: 1353px 650px;
+    }
+
+    #education_tabs {
+        width: 1353px;
+    }
+
+    .myProjects {
+        width: 1353px;
+    }
+
+    .Contact {
+        width: 1353px;
+    }
+
+    .bottombar {
+        width: 1353px;
+    }
 }
