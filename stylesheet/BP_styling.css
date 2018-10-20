@@ -877,75 +877,75 @@ h2 {
   }
 }
 
-@media only screen and (max-width: 1353px) {
+@media only screen and (max-width: 1366px) {
     .Cover {
-        width: 1353px;
+        width: 1366px;
     }
 
     #background {
-        width: 1353px;
-        background-size: 1353px 650px;
+        width: 1366px;
+        background-size: 1366px 650px;
     }
 
     #title {
-        width: 1353px;
+        width: 1366px;
     }
 
     #Welcome {
-        width: 1353px;
+        width: 1366px;
     }
 
     .topbar {
-        width: 1340px;
+        width: 1352px;
     }
 
     .Introduction {
-        width: 1353px;
+        width: 1366px;
     }
 
     #Intro {
-        width: 1353px;
+        width: 1366px;
     }
 
     #introNote {
-        width: 1353px;
+        width: 1366px;
     }
 
     .Education {
-        width: 1353px;
+        width: 1366px;
     }
 
     #Education {
-        width: 1353px;
+        width: 1366px;
     }
 
     #educationNote {
-        width: 1353px;
+        width: 1366px;
     }
 
     #educationPic1 {
-        width: 1353px;
-        background-size: 1353px 650px;
+        width: 1366px;
+        background-size: 1366px 650px;
     }
 
     #educationPic2 {
-        width: 1353px;
-        background-size: 1353px 650px;
+        width: 1366px;
+        background-size: 1366px 650px;
     }
 
     #education_tabs {
-        width: 1353px;
+        width: 1366px;
     }
 
     .myProjects {
-        width: 1353px;
+        width: 1366px;
     }
 
     .Contact {
-        width: 1353px;
+        width: 1366px;
     }
 
     .bottombar {
-        width: 1353px;
+        width: 1366px;
     }
 }
