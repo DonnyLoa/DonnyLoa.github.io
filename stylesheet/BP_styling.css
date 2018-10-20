@@ -955,7 +955,7 @@ h2 {
   }
 }
 
-@media only screen and (max-width: 980px) {
+/* @media only screen and (max-width: 980px) {
   .Cover {
     width: 980px;
   }
@@ -1030,5 +1030,83 @@ h2 {
 
   .bottombar {
     width: 980px;
+  }
+} */
+
+@media only screen and (max-width: 1920px) {
+  .Cover {
+    width: 1920px;
+  }
+
+  #background {
+    width: 1920px;
+    background-size: 1920px 650px;
+  }
+
+  #title {
+    width: 1920px;
+  }
+
+  #Welcome {
+    width: 1920px;
+  }
+
+  .topbar {
+    width: 1920px;
+  }
+
+  .Introduction {
+    width: 1920px;
+  }
+
+  #Intro {
+    width: 1920px;
+  }
+
+  #introNote {
+    width: 1920px;
+  }
+
+  .Education {
+    width: 1920px;
+  }
+
+  #Education {
+    width: 1920px;
+  }
+
+  #educationNote {
+    width: 1920px;
+  }
+
+  #educationPic1 {
+    width: 1920px;
+    background-size: 1920px 650px;
+  }
+
+  #educationPic2 {
+    width: 1920px;
+    background-size: 1920px 650px;
+  }
+
+  #education_tabs {
+    width: 1920px;
+  }
+
+  .myProjects {
+    width: 1920px;
+  }
+
+  .dmart {
+    left: 73%;
+  }
+
+
+  .Contact {
+    width: 1920px;
+  }
+
+  .bottombar {
+    width: 1920px;
   }
 }
