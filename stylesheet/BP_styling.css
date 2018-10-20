@@ -253,7 +253,7 @@ h2 {
     width: 405px;
     height: auto;
     position: absolute;
-    top: 160px;
+    top: 60px;
     left: -50%;
     transform: scale(0.55);
     overflow: hidden;
@@ -877,7 +877,7 @@ h2 {
   }
 }
 
-@media only screen and (max-width: 1366px) {
+@media only screen and (max-width: 1370px) {
   .Cover {
     width: 1366px;
   }
