@@ -10,7 +10,7 @@ h2 {
 /* .all {
   max-width: 1600px;
 } */
-@media only screen and (min-width: 1367px) and (max-width: 1600px) {
+/* @media only screen and (min-width: 1367px) and (max-width: 1600px) { */
   #open_side {
     z-index: 2;
     font-size: 28px;
@@ -895,7 +895,7 @@ h2 {
   .bottombar a:hover:not(.active) {
     color: gray;
   }
-}
+/* } */
 
 @media only screen and (min-width: 0px) and (max-width: 1366px) {
   .Cover {
@@ -973,6 +973,85 @@ h2 {
 
   .bottombar {
     width: 1366px;
+  }
+}
+
+@media only screen and (min-width: 1367px) and (max-width: 1600px) {
+  .Cover {
+    width: 1585px;
+  }
+
+  #background {
+    width: 1585px;
+    background-size: 1585px 650px;
+  }
+
+  #title {
+    width: 1585px;
+  }
+
+  #Welcome {
+    width: 1585px;
+  }
+
+  .topbar {
+    width: 1570px;
+    background-color: red;
+  }
+
+  .Introduction {
+    width: 1585px;
+  }
+
+  #Intro {
+    width: 1585px;
+  }
+
+  #introNote {
+    width: 1585px;
+  }
+
+  .Education {
+    width: 1585px;
+  }
+
+  #Education {
+    width: 1585px;
+  }
+
+  #educationNote {
+    width: 1585px;
+  }
+
+  #educationPic1 {
+    width: 1585px;
+    background-size: 1585px 650px;
+  }
+
+  #educationPic2 {
+    width: 1585px;
+    background-size: 1585px 650px;
+  }
+
+  #education_tabs {
+    width: 1585px;
+  }
+
+  .myProjects {
+    width: 1585px;
+  }
+
+  .dmart {
+    left: 68%;
+  }
+
+
+  .Contact {
+    width: 1585px;
+  }
+
+  .bottombar {
+    width: 1585px;
   }
 }
 
