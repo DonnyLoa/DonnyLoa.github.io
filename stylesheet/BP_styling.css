@@ -268,7 +268,7 @@ h2 {
 
   }
 
-  section{float:left; margin-top: 230px; margin-left:360px;}
+  section{float:left; margin-top: 230px; margin-left:300px;}
 
   /* #self_image {
     opacity: 1;
@@ -932,6 +932,22 @@ h2 {
     width: 1366px;
   }
 
+  #info_title {
+    left: 720px;
+  }
+
+  #info_line {
+    left: 720px;
+  }
+
+  #info {
+    left: 720px;
+  }
+
+  #self_image {
+    left: 0%;
+  }
+
   .Education {
     width: 1366px;
   }
@@ -963,12 +979,17 @@ h2 {
   }
 
   .dmart {
-    left: 68%;
+    left: 73%;
   }
 
 
   .Contact {
     width: 1366px;
+  }
+
+
+  #contactNote {
+    left: 44%;
   }
 
   .bottombar {
