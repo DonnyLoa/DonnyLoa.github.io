@@ -328,9 +328,8 @@
           document.getElementById("line2").style.width = "20%";
           document.getElementById("line2").style.left = "40%";
           document.getElementById("line2").style.opacity = 1;
-          // if (window.style.maxwidth <= 1366) {
-          //   document.getElementById("self_image").style.left = "15%";
-          // }
+          document.getElementById("self_image").style.left = "725px";
+
           document.getElementById("self_image").style.opacity = "1";
           // document.getElementById("info_line").style.transition = ".75s ease";
           // document.getElementById("info_line").style.transitionDelay = "1.5s";
@@ -438,6 +437,11 @@
             document.getElementById("click_space").style.cursor = "pointer";
             document.getElementById("click_space").style.left = "10%";
             document.getElementById("project_dropdown").style.width = "1000px";
+            // if (window.style.maxwidth <= 1920) {
+            //   if (window.style.minwidth >= 1601) {
+            //     document.getElementById("project_dropdown").style.left = "725px";
+            //   }
+            // }
             document.getElementById("opacity_title").innerHTML = "Magic Trivia";
             document.getElementById("opacity_text").innerHTML =
             "This web app allows players to play a trivia game, in which they try " +
@@ -472,6 +476,11 @@
             document.getElementById("project_images").style.opacity = "0.5";
             document.getElementById("project_images").style.left = "33%";
             document.getElementById("project_dropdown").style.width = "440px";
+            // if (window.style.maxwidth <= 1920) {
+            //   if (window.style.minwidth >= 1601) {
+                // document.getElementById("project_images").style.left = "725px";
+            //   }
+            // }
             document.getElementById("opacity_title").style.opacity = "0.01";
             document.getElementById("opacity_title").style.left = "48%";
             document.getElementById("opacity_line").style.opacity = "0.01";

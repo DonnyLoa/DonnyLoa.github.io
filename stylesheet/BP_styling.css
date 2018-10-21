@@ -604,7 +604,7 @@ h2 {
     position: absolute;
     opacity: 0.5;
     top: 35%;
-    left: 35%;
+    left: 33%;
     transition: .5s ease;
     border: 5px solid white;
     border-radius: 10px;
@@ -917,7 +917,6 @@ h2 {
 
   .topbar {
     width: 1352px;
-    background-color: red;
   }
 
   .Introduction {
@@ -1017,7 +1016,6 @@ h2 {
 
   .topbar {
     width: 1570px;
-    background-color: red;
   }
 
   .Introduction {
@@ -1078,20 +1076,20 @@ h2 {
 
 @media only screen and (min-width: 1601px) and (max-width: 1920px) {
   .Cover {
-    width: 1600px;
+    width: 1920px;
   }
 
   #background {
-    width: 1600px;
-    background-size: 1600px 650px;
+    width: 1920px;
+    background-size: 1920px 650px;
   }
 
   #title {
-    width: 1600px;
+    width: 1920px;
   }
 
   #Welcome {
-    width: 1600px;
+    width: 1920px;
   }
 
   .topbar {
@@ -1100,45 +1098,65 @@ h2 {
   }
 
   .Introduction {
-    width: 1600px;
+    width: 1920px;
   }
 
   #Intro {
-    width: 1600px;
+    width: 1920px;
   }
 
   #introNote {
-    width: 1600px;
+    width: 1920px;
+  }
+
+  #self_image {
+    left: 500px;
+  }
+
+  #info_title {
+    left: 950px;
+  }
+
+  #info_line {
+    left: 950px;
+  }
+
+  #info {
+    left: 950px;
   }
 
   .Education {
-    width: 1600px;
+    width: 1920px;
   }
 
   #Education {
-    width: 1600px;
+    width: 1920px;
   }
 
   #educationNote {
-    width: 1600px;
+    width: 1920px;
   }
 
   #educationPic1 {
-    width: 1600px;
-    background-size: 1600px 650px;
+    width: 1920px;
+    background-size: 1920px 650px;
   }
 
   #educationPic2 {
-    width: 1600px;
-    background-size: 1600px 650px;
+    width: 1920px;
+    background-size: 1920px 650px;
   }
 
   #education_tabs {
-    width: 1600px;
+    width: 1920px;
   }
 
   .myProjects {
-    width: 1600px;
+    width: 1901px;
+  }
+
+  #project_images {
+    left: 725px;
   }
 
   .dmart {
@@ -1146,11 +1164,15 @@ h2 {
   }
 
   .Contact {
-    width: 1600px;
+    width: 1920px;
+  }
+
+  #contactNote {
+    left: 910px;
   }
 
   .bottombar {
-    width: 1600px;
+    width: 1920px;
   }
 }
 
