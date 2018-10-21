@@ -1168,7 +1168,7 @@ h2 {
   }
 
   #contactNote {
-    left: 910px;
+    left: 879px;
   }
 
   .bottombar {
@@ -1319,13 +1319,21 @@ h2 {
     width: 1920px;
   }
 
+  .guava {
+    left: 1110px;
+  }
+
   .dmart {
-    left: 73%;
+    left: 1280px;
   }
 
 
   .Contact {
     width: 1920px;
+  }
+
+  #contactNote {
+    left: 879px;
   }
 
   .bottombar {
