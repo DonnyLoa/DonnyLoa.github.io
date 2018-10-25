@@ -39,7 +39,7 @@
       <a id="Contactbar" href="#Contact">Contact</a>
     </div>
 
-    <div class="Introduction">
+    <div class="Introduction" onmouseover="appearIntro()">
       <h2 id="Intro"><a name="Intro">Get to know me</a></h2>
       <p id="line2"></p>
       <p id="introNote">Hey, it's nice to meet you.</p>
@@ -56,13 +56,13 @@
         of data science and delve into <br> working with artificial intelligence.
         One of the things I enjoy is learning about recent tech <br> developments such as
         Boston Dynamics' robot creations and Google's autonomous cars, <br> which
-        I'd like to contribute to in the future. During my leisure time outside of coding,
+        I'd like to contribute to in the future. In my leisure time outside of coding,
         I also <br> enjoy spending time with my two dogs, practicing music on the piano,
-        going for a run <br> occassionally, and playing a good game or two. <br><br>
+        going for a run <br>, and playing JRPGs. <br><br>
         This website was developed using HTML, CSS, and Javascript, and incorporates
         DOM <br> manipulation for the dynamic side- and top-bar navigation tabs, as well
         as various other <br> features on this site. Below are the projects I've worked
-        on so far, my experiences and <br> education, and my contact info. Thank you
+        on so far, my experiences and <br> education, and ways to contact me. Thank you
         for visiting my website!
       </p>
     </div>
@@ -78,12 +78,13 @@
         <p id="education_title1">Bear Creek High School - Stockton, California</p>
         <p id="education_line1"></p>
         <p id="edu_info1">It was during my junior and senior years at Bear Creek High
-          School that I first delved into computer science and dedicated my time towards
-          learning C++. There, I adopted the logical mindset and basic programming practices
-          required in designing and developing programs, including how to
-          collaborate with my fellow peers, think in terms of code syntax, and
-          draft my projects and ideas before development. I also became acquainted with how to
-          develop programs in IDEs, most particularly Visual Studio.</p>
+          School when I first delved into computer science and dedicated my time towards
+          learning C++. There, I learned the fundamentals of programming, including how to
+          think in terms of code syntax, draft my projects, and organize my ideas into their
+          most basic components during planning. Additionally, I collaborated with my fellow
+          peers in class projects, including a calculator and a rock-paper-scissors game.
+          I also became acquainted with how to develop programs in IDEs, most particularly
+          Visual Studio.</p>
       </div>
 
       <div id="CSSI_tab">
@@ -92,12 +93,12 @@
         <p id="edu_info2">During the summer of 2018, I attended the Google
           Computer Science Summer Institute program, where I greatly broadened
           my knowledge and expanded my experience with computer programming.
-          Included in my time there, I learned how to program in HTML, CSS,
-          Javascript, and Python, incorporate Google App Engine in setting
-          up and deploying an application, and utilize GitHub for collaborative
+          In the three weeks I spent there, I learned how to program in HTML, CSS,
+          Javascript, and Python, incorporate Google App Engine to set
+          up and deploy an application, and utilize GitHub for collaborative
           projects. For our final week, I collaborated with two other peers to
           design, develop, and present the web app game Magic Trivia to Google
-          engineers, showcasing and incorporating all we had learned during our
+          engineers, showcasing and incorporating all I had learned during my
           time at the program.
         </p>
       </div>
@@ -115,7 +116,7 @@
         let container= document.getElementById("all");
         // window.style.height=(window.innerHeight);
         // window.style.width=window.innerWidth;
-        console.log(window.scrollY);
+        console.log(window.scrollX);
         console.log(window.innerHeight);
 
         window.resizeTo(window.outerWidth,window.outerHeight);
@@ -297,7 +298,7 @@
       }
     </script>
 
-    <div class="myProjects">
+    <div class="myProjects" onmouseover="appearProjects()">
       <h2 id="Project"><a name="Projects">Check out the projects I've made</a></h2>
       <p id="line3"></p>
       <p id="projectNote">Click the boxes to go to that project.</p>
@@ -437,22 +438,17 @@
             document.getElementById("click_space").style.cursor = "pointer";
             document.getElementById("click_space").style.left = "10%";
             document.getElementById("project_dropdown").style.width = "1000px";
-            // if (window.style.maxwidth <= 1920) {
-            //   if (window.style.minwidth >= 1601) {
-            //     document.getElementById("project_dropdown").style.left = "725px";
-            //   }
-            // }
             document.getElementById("opacity_title").innerHTML = "Magic Trivia";
             document.getElementById("opacity_text").innerHTML =
-            "This web app allows players to play a trivia game, in which they try " +
-            "to correctly answer questions depending on the category and " +
-            "difficulty they chose. This project was made using HTML, CSS, " +
-            "Javascript, and Python, and incorporated datastores to access the " +
-            "trivia content from a query. <br> <br> Magic Trivia was a collaboration " +
+            "This app allows users to play a trivia game, in which they try " +
+            "to correctly answer questions depending on the chosen category and " +
+            "difficulty. This project was made using HTML, CSS, " +
+            "Javascript, and Python, and incorporated Cloud Datastore to access the " +
+            "trivia via queries. <br> <br> Magic Trivia was a collaboration " +
             "between myself and my two team members: guavafanclub and " +
-            "dmartinez213 on GitHub. I provided the back-end programming, working to connect the " +
-            "pages together, incorporate the timer, and store all the input data via " +
-            "sessions. Click the buttons below to view their Github pages.";
+            "dmartinez213 on GitHub. I provided the back-end programming for linking the " +
+            "web pages, incorporating the timer, and storing the player's input data by " +
+            "passing parameters across requests. Click the buttons below to view their Github pages.";
 
             document.getElementById("project_images").style.opacity = "1";
             document.getElementById("project_images").style.left = "10%";
@@ -476,11 +472,6 @@
             document.getElementById("project_images").style.opacity = "0.5";
             document.getElementById("project_images").style.left = "33%";
             document.getElementById("project_dropdown").style.width = "440px";
-            // if (window.style.maxwidth <= 1920) {
-            //   if (window.style.minwidth >= 1601) {
-                // document.getElementById("project_images").style.left = "725px";
-            //   }
-            // }
             document.getElementById("opacity_title").style.opacity = "0.01";
             document.getElementById("opacity_title").style.left = "48%";
             document.getElementById("opacity_line").style.opacity = "0.01";
@@ -543,7 +534,7 @@
       </div>
     </div>
 
-    <div class="Contact">
+    <div class="Contact" onmouseover="appearContact()">
       <h2 id="Contact"><a name="Contact">Contact me</a></h2>
       <p id="line4"></p>
       <p id="contactNote">Let's meet again.</p>

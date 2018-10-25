@@ -112,7 +112,7 @@ h2 {
     overflow: hidden;
     border-radius: 15px;
     transition: .3s ease;
-    background-color: lightgreen;
+    background-color: #26262a;
   }
 
   .topbar a {
@@ -195,7 +195,7 @@ h2 {
   }
 
   .topbar a:hover:not(.active) {
-    color: #009933;
+    color: gray;
   }
 
   .sidebar a.active {
@@ -270,23 +270,6 @@ h2 {
 
   section{float:left; margin-top: 230px; margin-left:300px;}
 
-  /* #self_image {
-    opacity: 1;
-    width: 405px;
-    width: 50%;
-    overflow: hidden;
-    margin: -20% 0;
-    height: auto;
-    position: absolute;
-    top: 10px;
-    left: -50%;
-
-    z-index: 2;
-
-
-
-  } */
-
   #info_title {
     opacity: 0;
     color: #009933;
@@ -303,7 +286,7 @@ h2 {
     height: 25px;
     width: 200px;
     transition: .3s;
-    transition-delay: 1.25s;
+    transition-delay: 0.75s;
   }
 
   #info_line {
@@ -317,7 +300,7 @@ h2 {
     width: 0px;
     opacity: 0;
     transition: .3s;
-    transition-delay: 1.5s;
+    transition-delay: 1.0s;
   }
 
   #info {
@@ -334,7 +317,7 @@ h2 {
     padding-bottom: 0px;
     padding-right: 0px;
     transition: .3s;
-    transition-delay: 1.5s;
+    transition-delay: 1.0s;
   }
 
   .Education {
@@ -899,36 +882,43 @@ h2 {
 
 @media only screen and (min-width: 0px) and (max-width: 1366px) {
   .Cover {
-    width: 1366px;
-  }
-
-  #background {
-    width: 1366px;
-    background-size: 1366px 650px;
-  }
-
-  #title {
-    width: 1366px;
-  }
-
-  #Welcome {
-    width: 1366px;
-  }
-
-  .topbar {
-    width: 1352px;
+    width: 1348px;
+    height: 656px;
   }
 
   .Introduction {
-    width: 1366px;
+    top: 654px;
+    height: 544px;
+  }
+
+  #background {
+    width: 1348px;
+    height: 656px;
+    background-size: 1348px 656px;
+  }
+
+  #title {
+    width: 1348px;
+  }
+
+  #Welcome {
+    width: 1348px;
+  }
+
+  .topbar {
+    width: 1332px;
+  }
+
+  .Introduction {
+    width: 1348px;
   }
 
   #Intro {
-    width: 1366px;
+    width: 1348px;
   }
 
   #introNote {
-    width: 1366px;
+    width: 1348px;
   }
 
   #info_title {
@@ -948,33 +938,33 @@ h2 {
   }
 
   .Education {
-    width: 1366px;
+    width: 1348px;
   }
 
   #Education {
-    width: 1366px;
+    width: 1348px;
   }
 
   #educationNote {
-    width: 1366px;
+    width: 1348px;
   }
 
   #educationPic1 {
-    width: 1366px;
-    background-size: 1366px 650px;
+    width: 1348px;
+    background-size: 1348px 650px;
   }
 
   #educationPic2 {
-    width: 1366px;
-    background-size: 1366px 650px;
+    width: 1348px;
+    background-size: 1348px 650px;
   }
 
   #education_tabs {
-    width: 1366px;
+    width: 1348px;
   }
 
   .myProjects {
-    width: 1366px;
+    width: 1348px;
   }
 
   .dmart {
@@ -983,7 +973,7 @@ h2 {
 
 
   .Contact {
-    width: 1366px;
+    width: 1348px;
   }
 
 
@@ -992,7 +982,7 @@ h2 {
   }
 
   .bottombar {
-    width: 1366px;
+    width: 1348px;
   }
 }
 
@@ -1061,7 +1051,7 @@ h2 {
   }
 
   .dmart {
-    left: 68%;
+    left: 70%;
   }
 
 
@@ -1093,8 +1083,7 @@ h2 {
   }
 
   .topbar {
-    width: 1584px;
-    background-color: blue;
+    width: 1900px;
   }
 
   .Introduction {
@@ -1156,7 +1145,7 @@ h2 {
   }
 
   #project_images {
-    left: 725px;
+    left: 726px;
   }
 
   .dmart {
@@ -1256,68 +1245,80 @@ h2 {
 
 @media only screen and (min-width: 1921px) and (max-width: 9999px) {
   .Cover {
-    width: 1920px;
+    width: 100%;
   }
 
   #background {
-    width: 1920px;
-    background-size: 1920px 650px;
+    width: 100%;
+    background-size: 100% 650px;
   }
 
   #title {
-    width: 1920px;
+    width: 100%;
   }
 
   #Welcome {
-    width: 1920px;
+    width: 100%;
   }
 
   .topbar {
-    width: 1920px;
-    background-color: purple;
+    width: 99%;
   }
 
   .Introduction {
-    width: 1920px;
+    width: 100%;
   }
 
   #Intro {
-    width: 1920px;
+    width: 100%;
   }
 
   #introNote {
-    width: 1920px;
+    width: 100%;
   }
 
   .Education {
-    width: 1920px;
+    width: 100%;
   }
 
   #Education {
-    width: 1920px;
+    width: 100%;
   }
 
   #educationNote {
-    width: 1920px;
+    width: 100%;
   }
 
   #educationPic1 {
-    width: 1920px;
-    background-size: 1920px 650px;
+    width: 100%;
+    background-size: 100% 650px;
   }
 
   #educationPic2 {
-    width: 1920px;
-    background-size: 1920px 650px;
+    width: 100%;
+    background-size: 100% 650px;
   }
 
   #education_tabs {
-    width: 1920px;
+    width: 100%;
   }
 
   .myProjects {
-    width: 1920px;
+    width: 100%;
   }
+
+  #project_images {
+    left: 45%;
+    text-align: center;
+    /* width: 100%; */
+  }
+
+  /* #project_dropdown {
+    left: 45%;
+    width: 100%;
+    text-align: center;
+    background-color: green;
+  } */
 
   .guava {
     left: 1110px;
@@ -1329,14 +1330,22 @@ h2 {
 
 
   .Contact {
-    width: 1920px;
+    width: 100%;
   }
 
   #contactNote {
-    left: 879px;
+    left: 0px;
+    text-align: center;
+    width: 100%;
   }
 
   .bottombar {
-    width: 1920px;
+    width: 100%;
+  }
+}
+
+@media only screen and (min-width: 4536px) and (max-width: 9999px) {
+  .Contact {
+    height: 420px;
   }
 }
