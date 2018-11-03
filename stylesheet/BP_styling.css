@@ -42,7 +42,7 @@ h2 {
     left: 0px;
     top: 0px;
     width: 1585px;
-    height: 650px;
+    height: 652px;
     padding: 0px;
   }
 
@@ -209,9 +209,9 @@ h2 {
   .Introduction {
     position: absolute;
     left: 0px;
-    top: 650px;
+    top: 654px;
     width: 1585px;
-    height: 548px;
+    height: 798px;
     background-color: lightblue;
   }
 
@@ -291,11 +291,10 @@ h2 {
 
   #info_line {
     color: black;
-    border: 3px solid white;
-    border-radius: 60%;
+    border: 1px solid white;
     text-align: left;
     position: absolute;
-    top: 160px;
+    top: 165px;
     left: 780px;
     width: 0px;
     opacity: 0;
@@ -310,20 +309,21 @@ h2 {
     width: 570px;
     top: 170px;
     left: 780px;
-    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 18px;
+    font-family: 'Lato', sans-serif;
     text-align: left;
     position: absolute;
     padding-top: 0px;
     padding-bottom: 0px;
     padding-right: 0px;
     transition: .3s;
-    transition-delay: 1.0s;
+    transition-delay: 1.3s;
   }
 
   .Education {
     position: absolute;
     left: 0px;
-    top: 1195px;
+    top: 1295px;
     width: 1585px;
     height: 530px;
   }
@@ -397,37 +397,41 @@ h2 {
     transition: .5s;
   }
 
-  #CSSI_tab {
-    opacity: 0;
-    top: -25%;
-    left: 0px;
+  #education_background {
+    z-index: 1;
+    opacity: 80%;
     position: absolute;
+    top: 310px;
+    left: 125px;
+    height: 280px;
+    width: 600px;
+    border-radius: 5%;
+    background-color: #26262a;
     transition: .5s;
   }
 
   #education_title1 {
     z-index: 2;
-    color: darkgreen;
+    color: lightgreen;
     font-size: 18px;
     font-family: 'Quicksand', sans-serif;
     text-align: left;
     position: absolute;
-    top: 300px;
-    left: 400px;
+    top: 0px;
+    left: -50px;
     height: 25px;
-    width: 400px;
+    width: 380px;
     transition: .5s;
   }
 
   #education_line1 {
     z-index: 2;
-    color: black;
-    border: 3px solid black;
-    border-radius: 60%;
+    color: white;
+    border: 1px solid white;
     position: absolute;
-    margin-left: 120px;
-    top: 324px;
-    left: 400px;
+    margin-left: 25px;
+    top: 30px;
+    left: -50px;
     transition: .5s;
   }
 
@@ -436,38 +440,45 @@ h2 {
     line-height: 175%;
     height: 90px;
     width: 550px;
-    top: 334px;
-    left: 400px;
-    color: #1a1a1a;
-    font-family: 'Roboto Condensed', sans-serif;
+    top: 33px;
+    left: -50px;
+    color: white;
+    font-family: 'Lato', sans-serif;
     text-align: left;
+    position: absolute;
+    transition: .5s;
+  }
+
+  #CSSI_tab {
+    opacity: 0;
+    top: -25%;
+    left: 0px;
     position: absolute;
     transition: .5s;
   }
 
   #education_title2 {
     z-index: 2;
-    color: darkgreen;
+    color: lightgreen;
     font-size: 18px;
     font-family: 'Quicksand', sans-serif;
     text-align: left;
     position: absolute;
-    top: 300px;
-    left: 400px;
+    top: 0px;
+    left: -50px;
     height: 25px;
-    width: 400px;
+    width: 380px;
     transition: .5s;
   }
 
   #education_line2 {
     z-index: 2;
-    color: black;
-    border: 3px solid black;
-    border-radius: 60%;
+    color: white;
+    border: 1px solid white;
     position: absolute;
     margin-left: 120px;
-    top: 324px;
-    left: 400px;
+    top: 30px;
+    left: -50px;
     transition: .5s;
   }
 
@@ -476,10 +487,10 @@ h2 {
     line-height: 175%;
     height: 90px;
     width: 550px;
-    top: 334px;
-    left: 400px;
-    color: #1a1a1a;
-    font-family: 'Roboto Condensed', sans-serif;
+    top: 33px;
+    left: -50px;
+    color: white;
+    font-family: 'Lato', sans-serif;
     text-align: left;
     position: absolute;
     transition: .5s;
@@ -667,7 +678,7 @@ h2 {
   }
 
   #git_tags {
-    margin-top: 20%;
+    margin-top: 25%;
     left: 40%;
     opacity: 0;
     transition: .3s;
@@ -883,18 +894,13 @@ h2 {
 @media only screen and (min-width: 0px) and (max-width: 1366px) {
   .Cover {
     width: 1348px;
-    height: 656px;
-  }
-
-  .Introduction {
-    top: 654px;
-    height: 544px;
+    height: 658px;
   }
 
   #background {
     width: 1348px;
-    height: 656px;
-    background-size: 1348px 656px;
+    height: 658px;
+    background-size: 1348px 658px;
   }
 
   #title {
@@ -910,6 +916,7 @@ h2 {
   }
 
   .Introduction {
+    height: 594px;
     width: 1348px;
   }
 
@@ -938,6 +945,7 @@ h2 {
   }
 
   .Education {
+    top: 1244px;
     width: 1348px;
   }
 
@@ -964,6 +972,8 @@ h2 {
   }
 
   .myProjects {
+    top: 1837px;
+    height: 670px;
     width: 1348px;
   }
 
@@ -973,6 +983,7 @@ h2 {
 
 
   .Contact {
+    top: 2500px;
     width: 1348px;
   }
 
@@ -981,7 +992,20 @@ h2 {
     left: 44%;
   }
 
+  #link_account {
+    left: 310px;
+  }
+
+  #git_account {
+    left: 610px;
+  }
+
+  #mail_account {
+    left: 875px;
+  }
+
   .bottombar {
+    top: 275px;
     width: 1348px;
   }
 }

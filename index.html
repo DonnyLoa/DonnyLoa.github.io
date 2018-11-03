@@ -9,6 +9,7 @@
     <link href="https://fonts.googleapis.com/css?family=Roboto+Condensed" rel="stylesheet" type='text/css'>
     <link href="https://fonts.googleapis.com/css?family=Merriweather" rel="stylesheet" type='text/css'>
     <link href="https://fonts.googleapis.com/css?family=Quicksand" rel="stylesheet" type='text/css'>
+    <link href="https://fonts.googleapis.com/css?family=Lato:300" rel="stylesheet" type='text/css'>
     <link type="text/css" rel="stylesheet" href="stylesheet/BP_styling.css">
   </head>
 
@@ -53,16 +54,15 @@
       <p id="info_title">Here's Who I Am.</p>
       <p id="info_line"></p>
       <p id="info">I'm a Computer Science major planning to pursue the field
-        of data science and delve into <br> working with artificial intelligence.
-        One of the things I enjoy is learning about recent tech <br> developments such as
-        Boston Dynamics' robot creations and Google's autonomous cars, <br> which
+        of data science and delve into working with artificial intelligence.
+        One thing I really enjoy is learning about recent tech developments such as
+        Boston Dynamics' robot creations and Google's autonomous cars, which
         I'd like to contribute to in the future. In my leisure time outside of coding,
-        I also <br> enjoy spending time with my two dogs, practicing music on the piano,
-        going for a run, <br> and playing JRPGs. <br><br>
+        I also enjoy spending time with my two dogs, learning how to play the piano,
+        going for a run, and playing video games. <br><br>
         This website was developed using HTML, CSS, and Javascript, and incorporates
-        DOM <br> manipulation for the dynamic side- and top-bar navigation tabs, as well
-        as various other <br> features on this site. Below are the projects I've worked
-        on so far, my experiences and <br> education, and ways to contact me. Thank you
+        DOM manipulation for the dynamic navigation tabs, as well
+        as various other features on this site. Thank you
         for visiting my website!
       </p>
     </div>
@@ -75,32 +75,36 @@
       <p id="educationPic2"></p>
 
       <div id="BC_tab">
-        <p id="education_title1">Bear Creek High School - Stockton, California</p>
-        <p id="education_line1"></p>
-        <p id="edu_info1">It was during my junior and senior years at Bear Creek High
-          School when I first delved into computer science and dedicated my time towards
-          learning C++. There, I learned the fundamentals of programming, including how to
-          think in terms of code syntax, draft my projects, and organize my ideas into their
-          most basic components during planning. Additionally, I collaborated with my fellow
-          peers in class projects, including a calculator and a rock-paper-scissors game.
-          I also became acquainted with how to develop programs in IDEs, most particularly
-          Visual Studio.</p>
+        <div id="education_background">
+          <p id="education_title1">Bear Creek High School - Stockton, California</p>
+          <p id="education_line1"></p>
+          <p id="edu_info1">It was during my junior and senior years at Bear Creek High
+            School when I first delved into computer science and dedicated my time towards
+            learning C++. There, I learned the fundamentals of programming, including how to
+            think in terms of code syntax, draft my projects, and organize my ideas into their
+            most basic components during planning. Additionally, I collaborated with my fellow
+            peers in class projects, including a calculator and a rock-paper-scissors game.
+            I also became acquainted with how to develop programs in IDEs, most particularly
+            Visual Studio.</p>
+        </div>
       </div>
 
       <div id="CSSI_tab">
-        <p id="education_title2">Google CSSI - Kirkland, Washington</p>
-        <p id="education_line2"></p>
-        <p id="edu_info2">During the summer of 2018, I attended the Google
-          Computer Science Summer Institute program, where I greatly broadened
-          my CS knowledge and expanded my experience in computer programming.
-          In the three weeks I spent there, I learned how to program in HTML, CSS,
-          Javascript, and Python, incorporate Google App Engine to set
-          up and deploy an application, and utilize GitHub for collaborative
-          projects. For our final week, I collaborated with two other peers to
-          design, develop, and present the web app game Magic Trivia to Google
-          engineers, showcasing and incorporating all I had learned during my
-          time at the program.
-        </p>
+        <div id="education_background">
+          <p id="education_title2">Google CSSI - Kirkland, Washington</p>
+          <p id="education_line2"></p>
+          <p id="edu_info2">During the summer of 2018, I attended the Google
+            Computer Science Summer Institute program, where I greatly broadened
+            my CS knowledge and expanded my experience in computer programming.
+            In the three weeks I spent there, I learned how to program in HTML, CSS,
+            Javascript, and Python, incorporate Google App Engine to set
+            up and deploy an application, and utilize GitHub for collaborative
+            projects. For our final week, I collaborated with two other peers to
+            design, develop, and present the web app game Magic Trivia to Google
+            engineers, showcasing and incorporating all I had learned during my
+            time at the program.
+          </p>
+        </div>
       </div>
 
       <div id="education_tabs" class="active">
@@ -253,6 +257,7 @@
         document.getElementById("bubble2").style.color = "gray";
         document.getElementById("CSSI_tab").style.left = "40%";
         document.getElementById("CSSI_tab").style.opacity = "0";
+        // document.getElementById("education_background").style.left = "100px";
         document.getElementById("educationPic1").style.opacity = "0.4";
         document.getElementById("educationPic2").style.opacity = "0";
 
@@ -263,8 +268,6 @@
           document.getElementById("education_line1").style.opacity = "1";
           document.getElementById("edu_info1").style.opacity = "1";
         }, 500);
-
-        console.log(document.getElementById("BC_tab").style.opacity);
       }
 
       function education2() {
@@ -272,16 +275,18 @@
         document.getElementById("bubble2").style.color = "#009933";
         document.getElementById("BC_tab").style.left = "40%";
         document.getElementById("BC_tab").style.opacity = "0";
+
         document.getElementById("educationPic1").style.opacity = "0";
         document.getElementById("educationPic2").style.opacity = "0.4";
 
         setTimeout(function() {
           document.getElementById("CSSI_tab").style.left = "0%";
           document.getElementById("CSSI_tab").style.opacity = "1";
-          document.getElementById("education_title2").style.left = "125px";
-          document.getElementById("education_line2").style.width = "550px";
-          document.getElementById("education_line2").style.left = "5px";
-          document.getElementById("edu_info2").style.left = "125px";
+          document.getElementById("education_background").style.left = "125px";
+          document.getElementById("education_title2").style.left = "25px";
+          document.getElementById("education_line2").style.width = "545px";
+          document.getElementById("education_line2").style.left = "-95px";
+          document.getElementById("edu_info2").style.left = "25px";
           document.getElementById("education_title1").style.opacity = "0";
           document.getElementById("education_line1").style.opacity = "0";
           document.getElementById("edu_info1").style.opacity = "0";
@@ -334,7 +339,6 @@
           document.getElementById("self_image").style.opacity = "1";
           // document.getElementById("info_line").style.transition = ".75s ease";
           // document.getElementById("info_line").style.transitionDelay = "1.5s";
-          console.log(document.getElementById("info_title").style.opacity);
           document.getElementById("info_title").style.opacity = "1";
           // document.getElementById("info_title").style.left = "40%";
           document.getElementById("info_line").style.width = "550px";
@@ -358,10 +362,11 @@
           document.getElementById("line_education").style.left = "35%";
           document.getElementById("line_education").style.opacity = "1";
           document.getElementById("BC_tab").style.opacity = "1";
-          document.getElementById("education_title1").style.left = "125px";
+          document.getElementById("education_background").style.left = "125px";
+          document.getElementById("education_title1").style.left = "25px";
           document.getElementById("education_line1").style.width = "550px";
-          document.getElementById("education_line1").style.left = "5px";
-          document.getElementById("edu_info1").style.left = "125px";
+          document.getElementById("education_line1").style.left = "0px";
+          document.getElementById("edu_info1").style.left = "25px";
         }
       }
 
@@ -461,7 +466,7 @@
             document.getElementById("opacity_text").style.opacity = "1";
             document.getElementById("opacity_text").style.left = "55%";
             document.getElementById("opacity_text").style.transitionDelay = ".3s";
-            document.getElementById("git_tags").style.top = "60%";
+            document.getElementById("git_tags").style.top = "65%";
             document.getElementById("git_tags").style.left = "60%";
             document.getElementById("git_tags").style.opacity = "1";
             document.getElementById("git_tags").style.transitionDelay = ".5s";
