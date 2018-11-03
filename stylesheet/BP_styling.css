@@ -24,15 +24,15 @@ h2 {
     top: 57%;
     padding-right: 5px;
     padding-bottom: 5px;
-    color: black;
-    background-color: white;
+    color: white;
+    background-color: #26262a;
     border: 1px;
     border-radius: 21px;
     border-width: medium;
   }
 
   #open_side:hover {
-    color: darkgreen;
+    color: lightgreen;
     left: 5px;
     transition: .3s;
   }
@@ -101,8 +101,9 @@ h2 {
   }
 
   .topbar {
-    height: 50px;
+    opacity: 0.80;
     top: -20px;
+    height: 50px;
     width: 1570px;
     display: inline-block;
     position: absolute;
@@ -110,14 +111,13 @@ h2 {
     margin: 0px;
     text-align: center;
     overflow: hidden;
-    border-radius: 15px;
     transition: .3s ease;
     background-color: #26262a;
   }
 
   .topbar a {
     font-family: "Merriweather", sans-serif;
-    padding-top: 20px;
+    padding-top: 28px;
     font-size: 20px;
     cursor: pointer;
     display: inline-block;
@@ -128,9 +128,9 @@ h2 {
 
   .sidebar {
     z-index: 3;
-    height: 330px;
+    height: 100%;
     width: 160px;
-    top: 25%;
+    top: 0px;
     left: 10px;
     position: fixed;
     margin: auto;
@@ -138,6 +138,7 @@ h2 {
     overflow: hidden;
     border-radius: 15px;
     background-color: lightgreen;
+    /* background-color: #26262a; */
     transition: .3s;
     animation-duration: .5s ease;
   }
@@ -146,7 +147,7 @@ h2 {
     font-family: "Quicksand", sans-serif;
     font-size: 20px;
     display: inline-block;
-    color: white;
+    color: #26262a;
     width: 100px;
     text-align: left;
     left: 5px;
@@ -166,24 +167,44 @@ h2 {
     padding: 10px 16px;
     padding-bottom: -10px;
     display: block;
+    color: lightgreen;
     background-color: black;
     transition: .3s;
   }
 
-  #Homebar {
-    transition: .3s;
+  #Homebar a.active {
+    background-color: #26262a;
+    color: white;
   }
 
-  #Aboutbar {
-    transition: .3s;
+  #Aboutbar a.active {
+    background-color: #26262a;
+    color: white;
   }
 
-  #Edubar {
-    transition: .3s;
+  #Edubar a.active {
+    background-color: #26262a;
+    color: white;
   }
 
-  #Projectsbar {
-    transition: .3s;
+  #Projectsbar a.active {
+    background-color: #26262a;
+    color: white;
+  }
+
+  #Contactbar a.active {
+    background-color: #26262a;
+    color: white;
+  }
+
+  #line {
+    left: 120px;
+    width: 85px;
+    margin-top: -1px;
+    margin-left: 25px;
+    margin-bottom: -1px;
+    border-top: 1px solid white;
+    border-radius: 10%;
   }
 
   .topbar a.active {
@@ -203,7 +224,7 @@ h2 {
   }
 
   .sidebar a:hover:not(.active) {
-      color: darkgreen;
+      color: gray;
   }
 
   .Introduction {
@@ -912,7 +933,9 @@ h2 {
   }
 
   .topbar {
-    width: 1332px;
+    left: 0px;
+    height: 60px;
+    width: 1348px;
   }
 
   .Introduction {

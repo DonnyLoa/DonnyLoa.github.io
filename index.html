@@ -34,9 +34,13 @@
     <div id="sidebar" class="sidebar">
       <a class="exit_side" onclick="close_sidebar()">&times;</a>
       <a id="Homebar" href="#">Home</a>
+      <p id="line"></p>
       <a id="Aboutbar" href="#Intro">About</a>
+      <p id="line"></p>
       <a id="Edubar" href="#Education">Education</a>
+      <p id="line"></p>
       <a id="Projectsbar" href="#Projects">Projects</a>
+      <p id="line"></p>
       <a id="Contactbar" href="#Contact">Contact</a>
     </div>
 
@@ -129,7 +133,9 @@
         // console.log(window.scrollY);
         if (window.scrollY >= 0 && window.scrollY < 195) {
           document.getElementById("Homebar").style.backgroundColor = "black";
+          document.getElementById("Homebar").style.color = "white";
           document.getElementById("Aboutbar").style.backgroundColor = "";
+          document.getElementById("Aboutbar").style.color = "black";
           document.getElementById("Edubar").style.backgroundColor = "";
           document.getElementById("Projectsbar").style.backgroundColor = "";
           document.getElementById("Contactbar").style.backgroundColor = "";
@@ -138,8 +144,11 @@
         }
         if (window.scrollY >= 195 && window.scrollY < 1200) {
           document.getElementById("Homebar").style.backgroundColor = "";
+          document.getElementById("Homebar").style.color = "black";
           document.getElementById("Aboutbar").style.backgroundColor = "black";
+          document.getElementById("Aboutbar").style.color = "white";
           document.getElementById("Edubar").style.backgroundColor = "";
+          document.getElementById("Edubar").style.color = "black";
           document.getElementById("Projectsbar").style.backgroundColor = "";
           document.getElementById("Contactbar").style.backgroundColor = "";
           appearIntro();
@@ -148,24 +157,29 @@
           document.getElementById("open_side").style.color = "black";
           open_prompt();
         }
-        if (window.scrollY >= 500 && window.scrollY < 700) {
-          document.getElementById("open_side").style.color = "green";
+        if (window.scrollY >= 500 && window.scrollY < 1900) {
+          document.getElementById("open_side").style.color = "lightgreen";
         }
         if (window.scrollY >= 700 && window.scrollY < 2150) {
           document.getElementById("Homebar").style.backgroundColor = "";
           document.getElementById("Aboutbar").style.backgroundColor = "";
+          document.getElementById("Aboutbar").style.color = "black";
           document.getElementById("Edubar").style.backgroundColor = "black";
+          document.getElementById("Edubar").style.color = "white";
           document.getElementById("Projectsbar").style.backgroundColor = "";
+          document.getElementById("Projectsbar").style.color = "black";
           document.getElementById("Contactbar").style.backgroundColor = "";
           appearEducation();
         }
         if (window.scrollY >= 1450 && window.scrollY < 1900) {
-          document.getElementById("open_side").style.color = "green";
           document.getElementById("Homebar").style.backgroundColor = "";
           document.getElementById("Aboutbar").style.backgroundColor = "";
           document.getElementById("Edubar").style.backgroundColor = "";
+          document.getElementById("Edubar").style.color = "black";
           document.getElementById("Projectsbar").style.backgroundColor = "black";
+          document.getElementById("Projectsbar").style.color = "white";
           document.getElementById("Contactbar").style.backgroundColor = "";
+          document.getElementById("Contactbar").style.color = "black";
           appearProjects();
         }
         if (window.scrollY >= 1900) {
@@ -178,7 +192,9 @@
           document.getElementById("Aboutbar").style.backgroundColor = "";
           document.getElementById("Edubar").style.backgroundColor = "";
           document.getElementById("Projectsbar").style.backgroundColor = "";
+          document.getElementById("Projectsbar").style.color = "black";
           document.getElementById("Contactbar").style.backgroundColor = "black";
+          document.getElementById("Contactbar").style.color = "white";
           appearContact();
         }
       }
