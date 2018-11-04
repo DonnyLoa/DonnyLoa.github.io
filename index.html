@@ -59,11 +59,11 @@
       <p id="info_line"></p>
       <p id="info">I'm a Computer Science major planning to pursue the field
         of data science and delve into working with artificial intelligence.
-        One thing I really enjoy is learning about recent tech developments such as
+        One thing I enjoy is learning about recent tech developments such as
         Boston Dynamics' robot creations and Google's autonomous cars, which
         I'd like to contribute to in the future. In my leisure time outside of coding,
-        I also enjoy spending time with my two dogs, learning how to play the piano,
-        going for a run, and playing video games. <br><br>
+        I also love spending time with my two dogs, learning how to play the piano,
+        going for a run, and playing japanese RPGs. <br><br>
         This website was developed using HTML, CSS, and Javascript, and incorporates
         DOM manipulation for the dynamic navigation tabs, as well
         as various other features on this site. Thank you
@@ -84,11 +84,11 @@
           <p id="education_line1"></p>
           <p id="edu_info1">It was during my junior and senior years at Bear Creek High
             School when I first delved into computer science and dedicated my time towards
-            learning C++. There, I learned the fundamentals of programming, including how to
-            think in terms of code syntax, draft my projects, and organize my ideas into their
-            most basic components during planning. Additionally, I collaborated with my fellow
-            peers in class projects, including a calculator and a rock-paper-scissors game.
-            I also became acquainted with how to develop programs in IDEs, most particularly
+            learning Small Basic and then C++. There, I learned the fundamentals of programming,
+            including how to think in terms of code syntax, draft my projects, and organize my
+            ideas into their most basic components during planning. Additionally, I collaborated
+            with my fellow peers in class projects, including a calculator and a rock-paper-scissors
+            game. I also became acquainted with how to develop programs in IDEs, most particularly
             Visual Studio.</p>
         </div>
       </div>
@@ -485,8 +485,8 @@
             document.getElementById("opacity_text").style.opacity = "1";
             document.getElementById("opacity_text").style.left = "55%";
             document.getElementById("opacity_text").style.transitionDelay = ".3s";
-            document.getElementById("git_tags").style.top = "65%";
-            document.getElementById("git_tags").style.left = "60%";
+            document.getElementById("git_tags").style.top = "40%";
+            // document.getElementById("git_tags").style.left = "30%";
             document.getElementById("git_tags").style.opacity = "1";
             document.getElementById("git_tags").style.transitionDelay = ".5s";
           }
@@ -566,18 +566,20 @@
         <a href="https://www.linkedin.com/in/carter-bryant">
           <img onmouseover="linkedinLink()" onmouseout="linkOff()" id="linkedin" src="links/Linkedin-icon.png" alt="Linkedin">
         </a>
-        <p id="link_account">View my Linkedin page.</p>
+        <p id="link_account">View my Linkedin page</p>
 
         <a href="https://github.com/DonnyLoa">
           <img onmouseover="githubLink()" onmouseout="gitOff()" id="github" src="../links/Github-icon.png" alt="Github">
-        <p id="git_account">View my GitHub page.</p>
+        <p id="git_account">View my GitHub page</p>
 
         <a href="https://www.gmail.com/">
           <img onmouseover="gmailLink()" onmouseout="gmailOff()" id="gmail" src="../links/gmail-512.png" alt="Gmail">
         </a>
-        <p id="mail_account">Email me at donny.lao64@gmail.com.</p>
+        <p id="mail_account">Email me at donny.lao64@gmail.com</p>
       </div>
-
+      <a href="file:///C:/Users/carts/AppData/Local/Temp/Temp1_Resume%20(1)%20(1).zip/16a8dcbc-e023-11e8-b403-0cc47a792c0a_id_16a8dcbc-e023-11e8-b403-0cc47a792c0a.html">
+        <p id="resume">Or download my resume by clicking here.</p>
+      </a>
       <div id="bottombar" onmouseover="bottomBar()" onmouseout="bottomBarOff()" class="bottombar" class="active">
         <a id="bhome" onmouseover="bHome()" onclick="getPosition(Home)">Home</a>
         <a id="babout" onmouseover="bAbout()" onclick="getPosition(Intro)">About</a>
