@@ -1068,12 +1068,14 @@ h2 {
 
 @media only screen and (min-width: 1367px) and (max-width: 1600px) {
   .Cover {
+    height: 710px;
     width: 1585px;
   }
 
   #background {
+    height: 710px;
     width: 1585px;
-    background-size: 1585px 650px;
+    background-size: 1585px 710px;
   }
 
   #title {
@@ -1085,10 +1087,17 @@ h2 {
   }
 
   .topbar {
-    width: 1570px;
+    left: 0px;
+    width: 1585px;
+  }
+
+  .topbar a {
+    padding-top: 20px;
   }
 
   .Introduction {
+    top: 710px;
+    height: 594px;
     width: 1585px;
   }
 
@@ -1101,7 +1110,18 @@ h2 {
   }
 
   .Education {
+    position: absolute;
+    top: 1305px;
+    height: 620px;
     width: 1585px;
+  }
+
+  #BC_tab {
+    top: -90px;
+  }
+
+  #CSSI_tab {
+    top: -90px;
   }
 
   #Education {
@@ -1113,30 +1133,50 @@ h2 {
   }
 
   #educationPic1 {
+    height: 640px;
     width: 1585px;
-    background-size: 1585px 650px;
+    background-size: 1585px 640px;
   }
 
   #educationPic2 {
+    height: 640px;
     width: 1585px;
-    background-size: 1585px 650px;
+    background-size: 1585px 640px;
   }
 
   #education_tabs {
+    top: 555px;
     width: 1585px;
   }
 
   .myProjects {
+    top: 1945px;
     width: 1585px;
+  }
+
+  .guava {
+    position: absolute;
+    top: 460px;
+    left: 210px;
   }
 
   .dmart {
-    left: 70%;
+    position: absolute;
+    top: 460px;
+    left: 410px;
   }
 
-
   .Contact {
+    top: 2595px;
     width: 1585px;
+  }
+
+  #contactNote {
+    left: 115px;
+  }
+
+  #resume {
+    left: 115px;
   }
 
   .bottombar {
@@ -1146,12 +1186,14 @@ h2 {
 
 @media only screen and (min-width: 1601px) and (max-width: 1920px) {
   .Cover {
+    height: 800px;
     width: 1920px;
   }
 
   #background {
+    height: 800px;
     width: 1920px;
-    background-size: 1920px 650px;
+    background-size: 1920px 800px;
   }
 
   #title {
@@ -1166,7 +1208,13 @@ h2 {
     width: 1900px;
   }
 
+  .topbar a {
+    padding-top: 20px;
+  }
+
   .Introduction {
+    top: 800px;
+    height: 620px;
     width: 1920px;
   }
 
@@ -1195,6 +1243,8 @@ h2 {
   }
 
   .Education {
+    top: 1418px;
+    height: 550px;
     width: 1920px;
   }
 
@@ -1221,6 +1271,8 @@ h2 {
   }
 
   .myProjects {
+    top: 2010px;
+    height: 800px;
     width: 1901px;
   }
 
@@ -1233,7 +1285,8 @@ h2 {
   }
 
   .Contact {
-    width: 1920px;
+    top: 2700px;
+    width: 2520px;
   }
 
   #contactNote {
@@ -1407,7 +1460,6 @@ h2 {
   .dmart {
     left: 1280px;
   }
-
 
   .Contact {
     width: 100%;
