@@ -353,7 +353,7 @@
           document.getElementById("line2").style.width = "20%";
           document.getElementById("line2").style.left = "40%";
           document.getElementById("line2").style.opacity = 1;
-          document.getElementById("self_image").style.left = "725px";
+          // document.getElementById("self_image").style.left = "725px";
 
           document.getElementById("self_image").style.opacity = "1";
           // document.getElementById("info_line").style.transition = ".75s ease";
@@ -405,9 +405,9 @@
         document.getElementById("github").style.opacity = 1;
         document.getElementById("gmail").style.top = "147px";
         document.getElementById("gmail").style.opacity = 1;
-        document.getElementById("link_account").style.top = "200px";
-        document.getElementById("git_account").style.top = "200px";
-        document.getElementById("mail_account").style.top = "200px";
+        document.getElementById("link_account").style.top = "210px";
+        document.getElementById("git_account").style.top = "210px";
+        document.getElementById("mail_account").style.top = "210px";
       }
 
       function getPosition(elementPosition) {
@@ -474,9 +474,28 @@
             "web pages, incorporating the timer, and storing the player's input data by " +
             "passing parameters across requests. Click the buttons on the side to view their Github pages.";
 
+
+
             document.getElementById("project_images").style.opacity = "1";
-            document.getElementById("project_images").style.left = "10%";
+            if (window.innerWidth >= 0) {
+              document.getElementById("project_images").style.left = "140px";
+            }
+            if (window.innerWidth >= 1367) {
+              document.getElementById("project_images").style.left = "300px";
+            }
+            if (window.innerWidth >= 1650) {
+              document.getElementById("project_images").style.left = "440px";
+            }
+            if (window.innerWidth >= 1921) {
+              document.getElementById("project_images").style.left = "28%";
+            }
+
             document.getElementById("project_dropdown").style.left = "10%";
+            if (window.innerWidth >= 1921) {
+              document.getElementById("project_dropdown").style.left = "0px";
+              document.getElementById("project_dropdown").style.width = "100%";
+            }
+
             document.getElementById("opacity_title").style.opacity = "1";
             document.getElementById("opacity_title").style.left = "55%";
             document.getElementById("opacity_line").style.opacity = "1";
@@ -494,8 +513,26 @@
           function revertVisible() {
             document.getElementById("click_space").style.left = "33%";
             document.getElementById("project_images").style.opacity = "0.5";
-            document.getElementById("project_images").style.left = "33%";
+            document.getElementById("project_images").style.left = "600px";
+            if (window.innerWidth >= 0) {
+              document.getElementById("project_images").style.left = "445px";
+            }
+            if (window.innerWidth >= 1367) {
+              document.getElementById("project_images").style.left = "560px";
+            }
+            if (window.innerWidth >= 1601) {
+              document.getElementById("project_images").style.left = "726px";
+            }
+            if (window.innerWidth >= 1921) {
+              document.getElementById("project_images").style.left = "39%";
+            }
+
             document.getElementById("project_dropdown").style.width = "440px";
+            if (window.innerWidth >= 1921) {
+              document.getElementById("project_dropdown").style.left = "0px";
+              document.getElementById("project_dropdown").style.width = "100%";
+            }
+
             document.getElementById("opacity_title").style.opacity = "0.01";
             document.getElementById("opacity_title").style.left = "48%";
             document.getElementById("opacity_line").style.opacity = "0.01";
@@ -562,25 +599,27 @@
       <h2 id="Contact"><a name="Contact">Contact me</a></h2>
       <p id="line4"></p>
       <p id="contactNote">Let's meet again.</p>
-      <div class="links">
+
+      <div>
         <a href="https://www.linkedin.com/in/carter-bryant">
           <img onmouseover="linkedinLink()" onmouseout="linkOff()" id="linkedin" src="links/Linkedin-icon.png" alt="Linkedin">
         </a>
-        <p id="link_account">View my Linkedin page</p>
-
+        <a id="link_account">View my Linkedin page</a>
         <a href="https://github.com/DonnyLoa">
           <img onmouseover="githubLink()" onmouseout="gitOff()" id="github" src="../links/Github-icon.png" alt="Github">
-        <p id="git_account">View my GitHub page</p>
-
+        </a>
+        <a id="git_account">View my GitHub page</a>
         <a href="https://www.gmail.com/">
           <img onmouseover="gmailLink()" onmouseout="gmailOff()" id="gmail" src="../links/gmail-512.png" alt="Gmail">
         </a>
-        <p id="mail_account">Email me at donny.lao64@gmail.com</p>
+        <a id="mail_account">Email me at donny.lao64@gmail.com</a>
       </div>
-      <a href="https://documentcloud.adobe.com/link/track?uri=urn%3Aaaid%3Ascds%3AUS%3Aba2d25b6-6a4c-4fe8-a163-ca92c66425e3">
+
+      <!-- <a href="https://documentcloud.adobe.com/link/track?uri=urn%3Aaaid%3Ascds%3AUS%3Aba2d25b6-6a4c-4fe8-a163-ca92c66425e3">
         <p id="resume">Or download my resume by clicking here.</p>
-      </a>
-      <div id="bottombar" onmouseover="bottomBar()" onmouseout="bottomBarOff()" class="bottombar" class="active">
+      </a> -->
+
+      <div class="bottombar" id="bottombar" onmouseover="bottomBar()" onmouseout="bottomBarOff()" class="active">
         <a id="bhome" onmouseover="bHome()" onclick="getPosition(Home)">Home</a>
         <a id="babout" onmouseover="bAbout()" onclick="getPosition(Intro)">About</a>
         <a id="beducation" onmouseover="bEducation()" onclick="getPosition(Education)">Education</a>

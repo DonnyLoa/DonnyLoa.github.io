@@ -187,3 +187,40 @@
   text-align: center;
   opacity: 1;
 }
+
+/* #link_account {
+  position: absolute;
+  height: 20px;
+  top: 0px;
+  left: 23.5%;
+  opacity: 0;
+  transition: .3s;
+  text-align: center;
+}
+
+#git_account {
+  position: absolute;
+  height: 20px;
+  top: 0px;
+  left: 46.5%;
+  opacity: 0;
+  transition: .3s;
+  text-align: center;
+}
+
+#mail_account {
+  position: absolute;
+  height: 20px;
+  top: 0px;
+  left: 67%;
+  opacity: 0;
+  transition: .3s;
+  text-align: center;
+} */
+
+/* .links a {
+  display: inline-block;
+  padding-top: 15px;
+  color: white;
+  text-decoration: none;
+} */

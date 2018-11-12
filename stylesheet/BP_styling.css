@@ -7,10 +7,6 @@ h2 {
   background-color: darkgreen;
 }
 
-/* .all {
-  max-width: 1600px;
-} */
-/* @media only screen and (min-width: 1367px) and (max-width: 1600px) { */
   #open_side {
     z-index: 2;
     font-size: 28px;
@@ -52,7 +48,6 @@ h2 {
     height: 650px;
     width: 1585px;
     margin: auto;
-    /* width: 1585px; */
     margin-top: 0px;
     background-image: url(../images/senior_pic.jpg);
     background-repeat: no-repeat;
@@ -138,7 +133,6 @@ h2 {
     overflow: hidden;
     border-radius: 15px;
     background-color: lightgreen;
-    /* background-color: #26262a; */
     transition: .3s;
     animation-duration: .5s ease;
   }
@@ -289,7 +283,11 @@ h2 {
 
   }
 
-  section{float:left; margin-top: 230px; margin-left:300px;}
+  section {
+    float:left;
+    margin-top: 230px;
+    margin-left:300px;
+  }
 
   #info_title {
     opacity: 0;
@@ -926,7 +924,6 @@ h2 {
   .bottombar a:hover:not(.active) {
     color: gray;
   }
-/* } */
 
 @media only screen and (min-width: 0px) and (max-width: 1366px) {
   .Cover {
@@ -1016,6 +1013,10 @@ h2 {
     width: 1348px;
   }
 
+  #project_images {
+    left: 445px;
+  }
+
   #git_tags {
     top: 30%;
   }
@@ -1035,7 +1036,6 @@ h2 {
     width: 1348px;
   }
 
-
   #contactNote {
     left: 0%;
   }
@@ -1054,10 +1054,6 @@ h2 {
 
   #mail_account {
     left: 880px;
-  }
-
-  #resume {
-
   }
 
   .bottombar {
@@ -1111,8 +1107,8 @@ h2 {
 
   .Education {
     position: absolute;
-    top: 1305px;
-    height: 620px;
+    top: 1303px;
+    height: 642px;
     width: 1585px;
   }
 
@@ -1133,15 +1129,15 @@ h2 {
   }
 
   #educationPic1 {
-    height: 640px;
+    height: 642px;
     width: 1585px;
-    background-size: 1585px 640px;
+    background-size: 1585px 642px;
   }
 
   #educationPic2 {
-    height: 640px;
+    height: 642px;
     width: 1585px;
-    background-size: 1585px 640px;
+    background-size: 1585px 642px;
   }
 
   #education_tabs {
@@ -1154,16 +1150,20 @@ h2 {
     width: 1585px;
   }
 
+  #project_images {
+    left: 560px;
+  }
+
   .guava {
     position: absolute;
     top: 460px;
-    left: 210px;
+    left: 360px;
   }
 
   .dmart {
     position: absolute;
     top: 460px;
-    left: 410px;
+    left: 560px;
   }
 
   .Contact {
@@ -1197,15 +1197,22 @@ h2 {
   }
 
   #title {
+    top: 60px;
     width: 1920px;
   }
 
+  #line1 {
+    top: 370px;
+  }
+
   #Welcome {
+    top: 65px;
     width: 1920px;
   }
 
   .topbar {
-    width: 1900px;
+    left: 0px;
+    width: 1920px;
   }
 
   .topbar a {
@@ -1227,7 +1234,13 @@ h2 {
   }
 
   #self_image {
-    left: 500px;
+    left: 800px;
+  }
+
+  section {
+    float:left;
+    margin-top: 230px;
+    margin-left:500px;
   }
 
   #info_title {
@@ -1273,24 +1286,42 @@ h2 {
   .myProjects {
     top: 2010px;
     height: 800px;
-    width: 1901px;
+    width: 1920px;
   }
 
   #project_images {
     left: 726px;
   }
 
+  .guava {
+    top: 510px;
+    left: 495px;
+  }
+
   .dmart {
-    left: 68%;
+    top: 510px;
+    left: 695px;
   }
 
   .Contact {
-    top: 2700px;
-    width: 2520px;
+    top: 2720px;
+    width: 1920px;
   }
 
   #contactNote {
-    left: 879px;
+    left: 287px;
+  }
+
+  #link_account {
+    left: 450px;
+  }
+
+  #git_account {
+    left: 892px;
+  }
+
+  #resume {
+    left: 290px;
   }
 
   .bottombar {
@@ -1395,10 +1426,17 @@ h2 {
   }
 
   .topbar {
-    width: 99%;
+    left: 0px;
+    width: 100%;
+  }
+
+  .topbar a {
+    padding-top: 22px;
   }
 
   .Introduction {
+    top: 650px;
+    height: 600px;
     width: 100%;
   }
 
@@ -1410,7 +1448,26 @@ h2 {
     width: 100%;
   }
 
+  section {
+    float:left;
+    margin-top: 230px;
+    margin-left: 35%;
+  }
+
+  #info_title {
+    left: 55%;
+  }
+
+  #info_line {
+    left: 55%;
+  }
+
+  #info {
+    left: 55%;
+  }
+
   .Education {
+    top: 1246px;
     width: 100%;
   }
 
@@ -1437,31 +1494,34 @@ h2 {
   }
 
   .myProjects {
+    top: 1838px;
     width: 100%;
   }
 
   #project_images {
-    left: 45%;
+    left: 39%;
     text-align: center;
-    /* width: 100%; */
   }
 
-  /* #project_dropdown {
-    left: 45%;
+  #project_dropdown {
+    left: 0px;
     width: 100%;
-    text-align: center;
-    background-color: green;
-  } */
+  }
 
   .guava {
-    left: 1110px;
+    top: 450px;
+    margin-left: -160px;
+    left: 39%;
   }
 
   .dmart {
-    left: 1280px;
+    top: 450px;
+    margin-left: 40px;
+    left: 39%;
   }
 
   .Contact {
+    top: 2470px;
     width: 100%;
   }
 
@@ -1471,13 +1531,26 @@ h2 {
     width: 100%;
   }
 
+  /* #resume {
+    left: 330px;
+  } */
+
+  #link_account {
+    left: 23.5%;
+  }
+
+  #git_account {
+    left: 46.5%;
+  }
+
   .bottombar {
     width: 100%;
   }
 }
 
-@media only screen and (min-width: 4536px) and (max-width: 9999px) {
+@media only screen and (min-width: 4510px) and (max-width: 9999px) {
   .Contact {
-    height: 420px;
+    height: 640px;
+    background-color: #26262a;
   }
 }
