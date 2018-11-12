@@ -49,9 +49,9 @@ h2 {
     width: 1585px;
     margin: auto;
     margin-top: 0px;
-    background-image: url(../images/20180803_192620.jpg);
+    background-image: url(../images/senior_pic.jpg);
     background-repeat: no-repeat;
-    background-size: 1585px 650px;
+    background-size: 1585px 750px;
     background-attachment: fixed;
   }
 
@@ -934,7 +934,7 @@ h2 {
   #background {
     width: 1348px;
     height: 658px;
-    background-size: 1348px 658px;
+    background-size: 1348px 758px;
   }
 
   #title {
